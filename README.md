@@ -29,7 +29,7 @@ El microcontrolador será el encargado de recibir, procesar y manipular la infor
 | WIFI     | 802.11 b/g/n      | 2.4 Ghz  b / g / n     |
 | GPIOs     | 13       | 15     |
 
-![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fuelectronics.com%2Fproducto%2Fdevkitv1-esp32-modulo-wifi-bluetooth-esp32-arduino%2F&psig=AOvVaw1jBdXjaZBCsjzVAEg_XZ78&ust=1650600058190000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJj3u8SipPcCFQAAAAAdAAAAABAD)
+![image](https://www.amazon.es/gp/product/B07Q576VWZ?ie=UTF8&tag=epiniones-21&camp=3638&linkCode=xm2&creativeASIN=B07Q576VWZD)
 
 ## Conexiones del sistema
 
