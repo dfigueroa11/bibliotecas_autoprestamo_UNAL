@@ -29,7 +29,11 @@ El microcontrolador será el encargado de recibir, procesar y manipular la infor
 | WIFI     | 802.11 b/g/n      | 2.4 Ghz  b / g / n     |
 | GPIOs     | 13       | 15     |
 
+### Distribución de recursos de la ESP32
+
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/ESP32.jpg)
+
+### Distribución de recursos de la ESP32
 
 ## Conexiones del sistema
 
