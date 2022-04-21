@@ -38,7 +38,7 @@ El flujo anterior sigue de cerca las decisiones y tareas que se dan en el sistem
 
 A partir de lo anterior, se construye un diagrama de flujo de caja negra, en donde se integran las diferentes partes o divisiones que tendra el sistema, que seran explicadas con mayor detalle más adelante, el diagrama ilustra el proceso de autenticación de libro y usuario, la demagnetización del libro, la integración y visualización del proceso en un solo paso, además de la comunicación del sistema con el sistema de información:
 
-![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/flujo_bibliotecas.png)
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/diagrama_bloques.png)
 
 ## Procesamiento de la información
 ### Miconcontrolador/ Microprocesador
