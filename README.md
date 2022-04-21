@@ -113,6 +113,15 @@ Como es un protocolo más costo y el lector supera los costos para realizar un p
 
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/slb01_2.jpg)
 
+| Característica | Descripción  |
+| ------------- | ------------- |
+|Distancia de Lectura| 100mm.|
+Frecuencia| 13.56 MHz.|
+Protocolo| ISO14443 e ISO15693|
+Chipset| Ultralight,  Classic 1K, I.CODE SLI.|
+Temperatura| -10ºC ∼ 50ºC.|
+Dimensiones| 45mm x 25mm.|
+
 
 ## Máquina desmagnetizadora
 
