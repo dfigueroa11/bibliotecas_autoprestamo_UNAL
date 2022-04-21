@@ -111,6 +111,7 @@ Actualmente la biblioteca tiene estas etiquetas:
 
 Como es un protocolo más costo y el lector supera los costos para realizar un proprtipado con el mismo módulo 522, se usará una etiqueta diferente:
 
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/slb01_2.jpg)
 
 
 ## Máquina desmagnetizadora
