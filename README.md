@@ -78,20 +78,21 @@ El módulo RC522 es Lector-Grabador RFID 13.56MHz, posee comunicación SPI lo qu
 
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/modulo-rfid-c522.jpg)
 
-•	Voltaje de Operación: 3.3V DC
-•	Corriente de Operación: 13-26mA/3.3V DC
-•	Corriente de Standby: 10-13mA/3.3V DC
-•	Corriente de Sleep: <80uA
-•	Corriente pico: <30mA
-•	Frecuencia de operación: 13.56 MHz
-•	Transferencia de datos: Max. 10Mbit/s
-•	Tipos de tarjetas compatibles: Mifare1 S50, S70 Mifare1, MIFARE Ultralight, Mifare Pro, Mifare DESFire.
-•	Dimensiones RFID-RC522: 40 mm x 60 mm
-•	Dimensiones Tarjeta: 85 mm x 54 mm
-•	Temperatura de funcionamiento: -20 a 80 grados centígrados
-•	Temperatura de almacenamiento: -40 a 85 grados centígrados
-•	Humedad relativa: 5% hasta 95 %
-•	La tasa de transmisión por defecto: 9600bps, velocidad de transferencia máxima : 1228800bps
+-	Voltaje de Operación: 3.3V DC
+-	Corriente de Operación: 13-26mA/3.3V DC
+-	Corriente de Standby: 10-13mA/3.3V DC
+-	Corriente de Sleep: <80uA
+-	Corriente pico: <30mA
+-	Frecuencia de operación: 13.56 MHz
+-	Transferencia de datos: Max. 10Mbit/s
+-	Tipos de tarjetas compatibles: Mifare1 S50, S70 Mifare1, MIFARE Ultralight, Mifare Pro, Mifare DESFire.
+-	Dimensiones RFID-RC522: 40 mm x 60 mm
+-	Dimensiones Tarjeta: 85 mm x 54 mm
+-	Temperatura de funcionamiento: -20 a 80 grados centígrados
+-	Temperatura de almacenamiento: -40 a 85 grados centígrados
+-	Humedad relativa: 5% hasta 95 %
+-	La tasa de transmisión por defecto: 9600bps, velocidad de transferencia máxima : 1228800bps
+
 
 
 ## Protocolos de autenticación de Libro 
