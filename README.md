@@ -93,9 +93,21 @@ El módulo RC522 es Lector-Grabador RFID 13.56MHz, posee comunicación SPI lo qu
 -	Humedad relativa: 5% hasta 95 %
 -	La tasa de transmisión por defecto: 9600bps, velocidad de transferencia máxima : 1228800bps
 
-
-
 ## Protocolos de autenticación de Libro 
+
+Actualmente la biblioteca tiene estas etiquetas:
+
+| Protocolo	|ISO/IEC15693 y 18000-3|
+|Frecuencia	|Todo el mundo HF 13,56 Mhz|
+|Chip	|ICODE®SLIX ICODE SLI(ICODE 2)|
+|Memoria|	UID8ByteUID 64bit|
+|Retención de datos|	10 años|
+|Los ciclos de programación|	100.000 ciclos|
+|Anti-colisión de la	Soporte de múltiples etiquetas de lectura|
+
+Como es un protocolo más costo y el lector supera los costos para realizar un proprtipado con el mismo módulo 522, se usará una etiqueta diferente:
+
+
 
 ## Máquina desmagnetizadora
 
