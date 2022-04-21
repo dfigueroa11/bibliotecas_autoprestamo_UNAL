@@ -76,7 +76,7 @@ La tarjeta MIFARE es una tarjeta con chip de tecnología RFID 13.56Mhz 1K o 4K E
 
 El módulo RC522 es Lector-Grabador RFID 13.56MHz, posee comunicación SPI lo que permite trabajar fácilmente con la mayoría de microcontroladores. Utiliza un sistema de modulación y demodulación para todo tipo de dispositivos pasivos RFID de 13.56MHz. El dispositivo maneja el ISO14443-A y soporta el algoritmo de encriptación Quick CRYPTO1 y MIFARE. El rango de detección de tags RFID es de aprox. 5-7cm
 
-
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/modulo-rfid-c522.jpg)
 
 ## Protocolos de autenticación de Libro 
 
@@ -87,3 +87,5 @@ El módulo RC522 es Lector-Grabador RFID 13.56MHz, posee comunicación SPI lo qu
 ### Referencias 
 
 [1] https://www.luisllamas.es/que-es-mqtt-su-importancia-como-protocolo-iot/
+[2] https://a3m.eu/es/tarjeta-mifare
+
