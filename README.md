@@ -29,7 +29,7 @@ El microcontrolador será el encargado de recibir, procesar y manipular la infor
 | WIFI     | 802.11 b/g/n      | 2.4 Ghz  b / g / n     |
 | GPIOs     | 13       | 15     |
 
-![image](https://www.amazon.es/gp/product/B07Q576VWZ?ie=UTF8&tag=epiniones-21&camp=3638&linkCode=xm2&creativeASIN=B07Q576VWZD)
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/ESP32.jpg)
 
 ## Conexiones del sistema
 
