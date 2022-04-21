@@ -39,6 +39,9 @@ El microcontrolador será el encargado de recibir, procesar y manipular la infor
 
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/Omega2.png)
 
+![Imagen tomada de](https://user-images.githubusercontent.com/43114741/164371630-765c09cd-0014-44f1-bc93-12b020b82a60.png)
+
+
 ## Conexiones del sistema
 
 ## Interfaz Con el usuario - Comunicación con el sistema de información
