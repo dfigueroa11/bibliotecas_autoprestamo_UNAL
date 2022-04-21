@@ -1,4 +1,5 @@
-# Autoprestamo de libros-Bibliotecas Universidad Nacional de Colombia
+# Autoprestamo de libros
+# Bibliotecas Universidad Nacional de Colombia
 ![image](https://user-images.githubusercontent.com/70990883/164366780-317ffe7e-db18-4e8a-b064-e36025364265.png)
 
 ## Procesamiento de la información
