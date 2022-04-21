@@ -31,7 +31,7 @@ De igual manera, se construye el proceso para la autodevolución:
 5. Entrega y clasificación del libro por piso.
 
 Sin embargo, no solo se consideran las acciones o tareas del usuario, también las que realizara el sistema, por ello se construye el diagrama de flujo del sistema que se muestra a continuación:
-![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/Flujo de Bibliotecas.png)
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/flujo_bibliotecas.png)
 
 ## Procesamiento de la información
 ### Miconcontrolador/ Microprocesador
