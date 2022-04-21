@@ -163,19 +163,6 @@ Este  módulo  consta de una pantalla LCD que nos permitirá desplegar imágenes
 
 
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla.jpg)
-
-### Pruebas Iniciales
-
-![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla_2.jpeg)
-
-## Primer esquema de conexión
-
-![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema.PNG)
-
-## Máquina desmagnetizadora
-
-### Pruebas Iniciales
-
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla_2.jpeg)
 
 ## Primer esquema de conexión
@@ -191,6 +178,7 @@ Este  módulo  consta de una pantalla LCD que nos permitirá desplegar imágenes
 ### Esquema periféricos seriales
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema_serial.PNG)
 
+## Máquina desmagnetizadora
 
 ### Referencias 
 
