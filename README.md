@@ -124,7 +124,9 @@ Dimensiones| 45mm x 25mm.|
 
 ## Pantalla
 
-Este  módulo  consta de una pantalla LCD que nos permitirá desplegar imágenes, programar gráficos, textos, colores y agregar funciones de visualización a nuestros proyectos con Arduino. También cuenta con un panel táctil sobre la LCD.
+Este  módulo  consta de una pantalla LCD que nos permitirá desplegar imágenes, programar gráficos, textos, colores.
+
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla.jpg)
 
 
 ## Máquina desmagnetizadora
