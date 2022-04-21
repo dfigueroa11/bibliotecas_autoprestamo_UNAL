@@ -35,6 +35,8 @@ El microcontrolador será el encargado de recibir, procesar y manipular la infor
 
 ### Distribución de recursos de la ESP32
 
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/Omega2.png)
+
 ## Conexiones del sistema
 
 ## Interfaz Con el usuario - Comunicación con el sistema de información
