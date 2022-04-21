@@ -41,6 +41,11 @@ El microcontrolador será el encargado de recibir, procesar y manipular la infor
 
 ![Imagen tomada de](https://user-images.githubusercontent.com/43114741/164371630-765c09cd-0014-44f1-bc93-12b020b82a60.png)
 
+| MicroPython | C++ |
+| ------------- | ------------- |
+| Se instala una sola vez, y para acceder al código de y hacer modificaciones sólo se accesa a un sistema de archivos  | El proceso de compilado y enlace del programa se hace cada que se cambia el código, así como el proceso de flasheado  |
+| Se pueden agregar tantas librerías o scripts como uno desee. El número sólo está limitado por la memoria flash del dispositivo | La compilación del programa puede demorar más entre más librerías se incluyan  |
+|La ejecución del archivo principal main.py va después del archivo boot.py| | El archivo de programa se compila a lenguaje máquina, lo que lo hace más eficiente, pero menos portable|
 
 ## Conexiones del sistema
 
