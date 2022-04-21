@@ -1,6 +1,7 @@
 # Autoprestamo de libros
 # Bibliotecas Universidad Nacional de Colombia
-Con el objetivo de construir un campus inteligente dentro de la Universidad Nacional de Colombia-Sede Bogotá se busca suplir algunos de los servicios que son ofrecidos a la comunidad universitaria, dentro de los que se encuentra el autoprestamo de libros por parte de la Red de Bibliotecas dentro del campus universitario.\\
+Con el objetivo de construir un campus inteligente dentro de la Universidad Nacional de Colombia-Sede Bogotá se busca suplir algunos de los servicios que son ofrecidos a la comunidad universitaria, dentro de los que se encuentra el autoprestamo de libros por parte de la Red de Bibliotecas dentro del campus universitario.\n
+
 El proceso de autoprestamo de libros en las bibliotecas contempla un antes, durante y despues por parte del usuario
 ![image](https://user-images.githubusercontent.com/70990883/164366780-317ffe7e-db18-4e8a-b064-e36025364265.png)
 
