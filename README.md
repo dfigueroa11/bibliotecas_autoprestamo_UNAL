@@ -33,7 +33,7 @@ El microcontrolador será el encargado de recibir, procesar y manipular la infor
 
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/ESP32.jpg)
 
-Imagen recuperada de (https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.formacionprofesional.info%2Flos-modulos-esp32-y-lora-mas-vendidos%2F&psig=AOvVaw1jBdXjaZBCsjzVAEg_XZ78&ust=1650600058190000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJj3u8SipPcCFQAAAAAdAAAAABAJ)
+Imagen recuperada de ![Referencia]((https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.formacionprofesional.info%2Flos-modulos-esp32-y-lora-mas-vendidos%2F&psig=AOvVaw1jBdXjaZBCsjzVAEg_XZ78&ust=1650600058190000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJj3u8SipPcCFQAAAAAdAAAAABAJ)
 
 ### Distribución de recursos de la ESP32
 
