@@ -170,7 +170,7 @@ Este  módulo  consta de una pantalla LCD que nos permitirá desplegar imágenes
 
 ## Primer esquema de conexión
 
-![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema.PNG)
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema.PNG)
 
 ## Máquina desmagnetizadora
 
