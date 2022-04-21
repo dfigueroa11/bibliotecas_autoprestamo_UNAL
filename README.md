@@ -97,6 +97,8 @@ El módulo RC522 es Lector-Grabador RFID 13.56MHz, posee comunicación SPI lo qu
 
 Actualmente la biblioteca tiene estas etiquetas:
 
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/libro.jpg)
+
 | Característica | Descripción  |
 | ------------- | ------------- |
 | Protocolo	|ISO/IEC15693 y 18000-3|
