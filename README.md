@@ -62,6 +62,7 @@ Información tomada de : ![image](https://blog.330ohms.com/2020/07/17/comparativ
 
 Como regla general la totalidad del sistema inteligente, ha adoptado el protocolo MQTT para la comunicación entre los diferentes dispositivos debido a que "El protocolo MQTT se ha convertido en uno de los principales pilares del IoT por su sencillez y ligereza. Ambos son condicionantes importantes dado que los dispositivos de IoT, a menudo, tienen limitaciones de potencia, consumo, y ancho de banda." [1]
 
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/MQTT.jpg)
 
 
 
