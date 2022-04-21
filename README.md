@@ -122,10 +122,12 @@ Chipset| Ultralight,  Classic 1K, I.CODE SLI.|
 Temperatura| -10ºC ∼ 50ºC.|
 Dimensiones| 45mm x 25mm.|
 
+## Pantalla
+
+Este  módulo  consta de una pantalla LCD que nos permitirá desplegar imágenes, programar gráficos, textos, colores y agregar funciones de visualización a nuestros proyectos con Arduino. También cuenta con un panel táctil sobre la LCD.
+
 
 ## Máquina desmagnetizadora
-
-### Alimentación del sistema
 
 ### Referencias 
 
