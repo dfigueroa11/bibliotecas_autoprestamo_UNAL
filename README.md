@@ -40,6 +40,14 @@ A partir de lo anterior, se construye un diagrama de flujo de caja negra, en don
 
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/diagrama_bloques.png)
 
+Para ser mas especificos, el proceso de autenticación del libro y usuario comprende el uso de lectores RFID para ambos que permitiran emitir un numero hexadecimal que sera el identificador unico del libro o del usuario, al realizar la comunicación con el sistema de información y realizar un constraste con las bases de datos del proyecto, se podra identificar el estado del usuario y de los libros para poder realizar un correcto autoprestamo. Ademas del proceso de autenticación se tiene un proceso que brinda la seguridad al sistema dado por el desmagnetizador, que como su nombre lo indica desmagnetiza la cinta de seguridad que tienen los libros y que permite saber a la salida de la biblioteca si un libro tiene el permiso de salir de las instalaciones, ademas de la verificación biometrica, con la clave institucional que es unica de cada miembro de la comunidad universitaria. El sistema se complementa con un modulo de alimentación que permitira el funcionamiento de todo el sistema en conjunto.
+
+Para un correcto funcionamiento, se tiene en cuenta las siguientes especificaciones:
+
+Ya teniendo claridad sobre todas las especificaciones y modulos que comprenden el sistema, se procede a investigar y definir ciertos dispositivos electónicos que cumplen con los objetivos de cada modulo y de igual manera se investiga sobre las conexiones que tendrá el sistema entre si, como se muestra a continuación y como se especificará mas a fondo en las secciones siguientes:
+
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/diagrama_conexiones.png)
+
 ## Procesamiento de la información
 ### Miconcontrolador/ Microprocesador
 
