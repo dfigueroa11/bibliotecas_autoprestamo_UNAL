@@ -39,7 +39,7 @@ El microcontrolador será el encargado de recibir, procesar y manipular la infor
 
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/Omega2.png)
 
-###Firmware
+### Firmware
 
 Conociendo los recursos de hardware que tenemos, ahora nos disponemos a elegir el firmware que podemos cargar. Para la ESP32 existe más documentación y soporte de la comunidad para Micropython y para C++. Analizaremos las diferencias entre ellos:
 
@@ -48,6 +48,11 @@ Conociendo los recursos de hardware que tenemos, ahora nos disponemos a elegir e
 | Se instala una sola vez, y para acceder al código de y hacer modificaciones sólo se accesa a un sistema de archivos  | El proceso de compilado y enlace del programa se hace cada que se cambia el código, así como el proceso de flasheado  |
 | Se pueden agregar tantas librerías o scripts como uno desee. El número sólo está limitado por la memoria flash del dispositivo | La compilación del programa puede demorar más entre más librerías se incluyan  |
 |La ejecución del archivo principal main.py va después del archivo boot.py | El archivo de programa se compila a lenguaje máquina, lo que lo hace más eficiente, pero menos portable|
+
+### Eficiencia y velocidad
+- Los programas hechos en MicroPython se ejecutan desde bytecode compilado, que es un código de abstracción intermedia del lenguaje máquina.
+- De ser necesario, para mejorar el rendimiento de un programa se puede agregar módulos de código en C o ensamblador.
+- Se puede utilizar un Modo de Interprete Interactivo (Interpreter Interactive Mode) para probar el código escrito y verificar que funcione como deseamos; también conocido como REPL (read-eval-print-loop).
 
 ## Conexiones del sistema
 
