@@ -44,6 +44,38 @@ Para ser mas especificos, el proceso de autenticación del libro y usuario compr
 
 Para un correcto funcionamiento, se tiene en cuenta las siguientes especificaciones:
 
+Dentro de las especificaciones de funcionamiento se encuentra que el sistema debe cumplir con las siguientes tareas:
+
+- Mostrar en pantalla información instructiva para el usuario como los pasos a seguir en el proceso
+- Identificación del usuario por medio del carné universitario (tarjeta TIUN)
+- Verificación de seguridad con clave de correo institucional
+- Identificación del libro gracias al sticker RFID 
+- Comunicación con el sistema de información de las bibliotecas ALEPH
+- Se mostrará la información general del préstamo, permitiendo que el usuario acepte y se da la notificación del préstamo 
+- Desensibilización de bandas magnéticas de seguridad del libro
+- Recopilación de información para poder generar estadísticas del autopréstamo por cada una de las bibliotecas.
+- El proceso de auto devolución conserva el mismo principio de funcionamiento del autopréstamo, con el único cambio de que se hace una sensibilización de las bandas magnéticas de seguridad del libro devuelto y la clasificación por casilleros, según el piso donde se encuentra ubicada la estantería del libro
+
+Dentro de las especificaciones físicas se encuentra que el sistema debe hacer uso de los siguientes dispositivos:
+
+- Lectores RFID
+- Desensibilizador de bandas magnéticas
+- Material acero de la estación de autopréstamo
+- Indicadores visuales como orientación en las partes de identificación del usuario y donde poner el libro 
+- Seguridad del sistema (No hay acceso a la estructura interna de la maquina, solo con una llave o detector de credencial)
+- Conexión eléctrica o alimentación de energía
+
+Dentro de las especificaciones eléctricas, el sistema deberá cumplir con:
+
+- Normas de compatibilidad electromagnética 
+- Normas sobre la conexión de la alimentación
+- Comunicaciones con los lectores a la salida
+- Normas de diseño PCB para evitar cortos circuitos
+
+Por último, lo que respecta a las especificaciones legales y éticas, se tendran presente:
+- La Ley de protección de datos
+- El cumplimiento de normas: CE(normatividad seguridad europea), RCM(Norma SAE JA1011 de mantenimiento centrada en la fiabilidad), ETSI(Instituto europeo de normas de telecomunicaciones), FCC(Comisión federal de comunicaciones, encargada de establecer límites en las frecuencias), ADA(Norma de accesibilidad de personas con discapacidad), DDA, ETL(certificación de seguridad eléctrica) , todas estas normas son las que tienen las maquinas de autoprestamo que actualmente son utilizadas:
+
 Ya teniendo claridad sobre todas las especificaciones y modulos que comprenden el sistema, se procede a investigar y definir ciertos dispositivos electónicos que cumplen con los objetivos de cada modulo y de igual manera se investiga sobre las conexiones que tendrá el sistema entre si, como se muestra a continuación y como se especificará mas a fondo en las secciones siguientes:
 
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/diagrama_conexiones.png)
