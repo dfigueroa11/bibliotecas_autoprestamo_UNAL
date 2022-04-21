@@ -126,11 +126,29 @@ Dimensiones| 45mm x 25mm.|
 
 Este  módulo  consta de una pantalla LCD que nos permitirá desplegar imágenes, programar gráficos, textos, colores.
 
+-	Voltaje de operación: 5 VDC
+-	Controlador gráfico (driver): R61505 
+-	Controlador de pantalla con buffer de video incluido
+-	Interface LCD: Data (8 pines) Control (5 pines)
+-	Interface micro SD: SPI (SS,DI,DO,SCK)
+-	Nivel lógico de SPI: 3.3 - 5V
+-	Tamaño de la pantalla (diagonal): 2.4" (61mm)
+-	Resolución: 240x320 píxeles
+-	Profundidad de color o bits por pixel: 16/18 bpp
+-	Cantidad de colores: 262144 colores (18-bit: R6G6B6)
+-	*Puede trabajar opcionalmente a RGB 16-bit: R5G6B5
+-	Dimensiones pantalla: 49*38mm (área visible)
+-	Dimensiones placa: 72*52mm
+-	Socket para memoria externa micro SD
+-	Pantalla táctil resistive
+-	Fabricante: mcufriend
+
+
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla.jpg)
 
 ### Pruebas Iniciales
 
-![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla_2.jpeg_
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla_2.jpeg)
 
 
 ## Máquina desmagnetizadora
