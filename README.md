@@ -54,7 +54,7 @@ Conociendo los recursos de hardware que tenemos, ahora nos disponemos a elegir e
 - De ser necesario, para mejorar el rendimiento de un programa se puede agregar módulos de código en C o ensamblador.
 - Se puede utilizar un Modo de Interprete Interactivo (Interpreter Interactive Mode) para probar el código escrito y verificar que funcione como deseamos; también conocido como REPL (read-eval-print-loop).
 
-Información tomada de : https://blog.330ohms.com/2020/07/17/comparativa-arduino-v-s-micropython-para-el-esp32/
+Información tomada de : ![image](https://blog.330ohms.com/2020/07/17/comparativa-arduino-v-s-micropython-para-el-esp32/)
 
 ## Conexiones del sistema
 
