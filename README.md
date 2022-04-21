@@ -128,6 +128,10 @@ Este  módulo  consta de una pantalla LCD que nos permitirá desplegar imágenes
 
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla.jpg)
 
+### Pruebas Iniciales
+
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla_2.jpeg_
+
 
 ## Máquina desmagnetizadora
 
