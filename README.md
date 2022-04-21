@@ -97,6 +97,8 @@ El módulo RC522 es Lector-Grabador RFID 13.56MHz, posee comunicación SPI lo qu
 
 Actualmente la biblioteca tiene estas etiquetas:
 
+| Característica | Descripción  |
+| ------------- | ------------- |
 | Protocolo	|ISO/IEC15693 y 18000-3|
 |Frecuencia	|Todo el mundo HF 13,56 Mhz|
 |Chip	|ICODE®SLIX ICODE SLI(ICODE 2)|
