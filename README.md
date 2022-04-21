@@ -1,6 +1,7 @@
 # Autoprestamo de libros
 ## Bibliotecas Universidad Nacional de Colombia
-### Miconcontrolador/ Microprocesador
+### Procesamiento de la información
+#### Miconcontrolador/ Microprocesador
 
 ### Conexiones del sistema
 
