@@ -1,16 +1,17 @@
-# Autoprestamo de libros
-## Bibliotecas Universidad Nacional de Colombia
-### Procesamiento de la información
-#### Miconcontrolador/ Microprocesador
+# Autoprestamo de libros-Bibliotecas Universidad Nacional de Colombia
+![image](https://user-images.githubusercontent.com/70990883/164366780-317ffe7e-db18-4e8a-b064-e36025364265.png)
 
-### Conexiones del sistema
+## Procesamiento de la información
+### Miconcontrolador/ Microprocesador
 
-### Interfaz Con el usuario - Comunicación con el sistema de información
+## Conexiones del sistema
 
-### Protocolos de autentecación de Usuario.
+## Interfaz Con el usuario - Comunicación con el sistema de información
 
-### Protocolos de autenticación de Libro 
+## Protocolos de autentecación de Usuario.
 
-### Máquina desmagnetizadora
+## Protocolos de autenticación de Libro 
 
-#### Alimentación del sistema
+## Máquina desmagnetizadora
+
+### Alimentación del sistema
