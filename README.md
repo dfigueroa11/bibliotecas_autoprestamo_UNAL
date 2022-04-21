@@ -56,9 +56,14 @@ Conociendo los recursos de hardware que tenemos, ahora nos disponemos a elegir e
 
 Información tomada de : ![image](https://blog.330ohms.com/2020/07/17/comparativa-arduino-v-s-micropython-para-el-esp32/)
 
-## Conexiones del sistema
-
 ## Interfaz Con el usuario - Comunicación con el sistema de información
+
+### Lenguaje Machine to machine: protocolo MQTT
+
+Como regla general la totalidad del sistema inteligente, ha adoptado el protocolo MQTT para la comunicación entre los diferentes dispositivos debido a que "El protocolo MQTT se ha convertido en uno de los principales pilares del IoT por su sencillez y ligereza. Ambos son condicionantes importantes dado que los dispositivos de IoT, a menudo, tienen limitaciones de potencia, consumo, y ancho de banda." [1]
+
+
+
 
 ## Protocolos de autentecación de Usuario.
 
@@ -67,3 +72,7 @@ Información tomada de : ![image](https://blog.330ohms.com/2020/07/17/comparativ
 ## Máquina desmagnetizadora
 
 ### Alimentación del sistema
+
+### Referencias 
+
+[1] https://www.luisllamas.es/que-es-mqtt-su-importancia-como-protocolo-iot/
