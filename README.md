@@ -179,6 +179,7 @@ Este  módulo  consta de una pantalla LCD que nos permitirá desplegar imágenes
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla_2.jpeg)
 
 ## Primer esquema de conexión
+
 ### Esquema general
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema.PNG)
 ### Esquema ESP32
