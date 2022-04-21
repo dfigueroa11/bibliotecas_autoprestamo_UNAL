@@ -15,6 +15,24 @@ Partiendo del anterior analisis del viaje que debe hacer el usuario para poder r
 Dentro de las problematicas principales destacan los problemas de integración entre los diferentes sistemas que tiene la universidad, no hay suficientes puntos de autoprestamo y la poca robustez del sistema existente. De igual modo, como solución se propone la conexión de nuevos puntos de autoprestamo optimizados y bioseguros, ademas de construir un sistema replicable y escalable más economico.
 
 
+Teniendo en cuanta lo anterior, se construye el proceso que debe seguir el usuario para hacer uso de las maquinas de autopretamo:
+1. Colocar el libro en la plataforma de lectura
+2. Colocar el carné en el dispositivo lector
+3. Conexión con la base de datos del SINAB
+4. Autenticación biométrica
+5. Desmagnetización y registro de préstamo en la base de datos
+6. Muestra de mensaje de prestamo realizado
+
+De igual manera, se construye el proceso para la autodevolución:
+1. Colocar el libro en la plataforma de lectura
+2. Conexión con la base de datos del SINAB
+3. Magnetización y registro de devolución en la base de datos
+4. Muestra de mensaje de entrega realizada
+5. Entrega y clasificación del libro por piso.
+
+Sin embargo, no solo se consideran las acciones o tareas del usuario, también las que realizara el sistema, por ello se construye el diagrama de flujo del sistema que se muestra a continuación:
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/Dia)
+
 ## Procesamiento de la información
 ### Miconcontrolador/ Microprocesador
 
