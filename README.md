@@ -64,9 +64,15 @@ Como regla general la totalidad del sistema inteligente, ha adoptado el protocol
 
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/MQTT.jpg)
 
+## Protocolos de autentecación de Usuario
 
+Para la autenticación del usuario, se usará como primer elemento el cané que cada estudiante tiene, seguido de un requerimeinto a la base de datos
 
-## Protocolos de autentecación de Usuario.
+### Tarjeta MIFARE
+
+La tarjeta MIFARE es una tarjeta con chip de tecnología RFID 13.56Mhz 1K o 4K Entre las tarjetas RFID, la tarjeta MIFARE ® 13,56Mhz muestra el precio más económico. Pionera en la tecnología RFID en tarjetas de plástico, esta tarjeta MIFARE se usa ampliamente en sistemas de control de acceso, sistemas de transporte y fidelización.  La tarjeta MIFARE es la apuesta segura para administrar el acceso a  instalaciones.[2]
+
+### lector de tarjeta 
 
 ## Protocolos de autenticación de Libro 
 
