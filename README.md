@@ -174,6 +174,23 @@ Este  módulo  consta de una pantalla LCD que nos permitirá desplegar imágenes
 
 ## Máquina desmagnetizadora
 
+### Pruebas Iniciales
+
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/pantalla_2.jpeg)
+
+## Primer esquema de conexión
+### Esquema general
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema.PNG)
+### Esquema ESP32
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema_esp.PNG)
+### Esquema Fuente
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema_fuentea.PNG)
+### Esquema pantalla
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema_pantalla.PNG)
+### Esquema periféricos seriales
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema_serial.PNG)
+
+
 ### Referencias 
 
 [1] https://www.luisllamas.es/que-es-mqtt-su-importancia-como-protocolo-iot/
