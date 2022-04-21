@@ -12,6 +12,15 @@ Antes de realizar el prestamo, el usuario se acerca a la Biblioteca en busca de 
 
 El microcontrolador será el encargado de recibir, procesar y manipular la información del proceso que se realiza con el autopréstamo. Conociendo el proceso descrito en la sección anterior, establecimos una lista de posibles herramientas a utilizar.  
 
+|  | ESP32 | Onion Omega 2 |
+| :---:         |     :---:      |          :---: |
+| Procesador   |  32-bit Xtensa LX6 de doble núcleo 240 MHz    | CPU MIPS de 580 MHz   |
+| Memoria RAM     | 520 KiB SRAM     |64 MB     |
+| Almacenamiento    | git diff       | 16 MB      |
+| Voltaje de funcionamiento     | 3.3 V      | 3.3 V     |
+| WIFI     | 802.11 b/g/n      | 2.4 Ghz  b / g / n     |
+| GPIOs     | 13       | 15     |
+
 ## Conexiones del sistema
 
 ## Interfaz Con el usuario - Comunicación con el sistema de información
