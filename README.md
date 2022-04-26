@@ -11,7 +11,7 @@ A continuación se observara lo referente a esquemas de conexiones, para su post
 ### Esquema ESP32
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema_esp.PNG)
 ### Esquema Fuente
-![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema_fuentea.PNG)
+![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema_fuente.PNG)
 ### Esquema pantalla
 ![image](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/images/esquema_pantalla.PNG)
 ### Esquema periféricos seriales
