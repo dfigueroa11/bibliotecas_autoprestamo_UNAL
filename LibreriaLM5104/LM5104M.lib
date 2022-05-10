@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LM5104M
+#
+DEF LM5104M U 0 40 Y Y 1 L N
+F0 "U" -500 639 50 H V L BNN
+F1 "LM5104M" -500 -757 50 H V L BNN
+F2 "SOIC127P599X175-8N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -500 -600 500 600 0 0 16 f
+X LI 6 -700 300 200 R 40 40 0 0 I 
+X RT 5 -700 200 200 R 40 40 0 0 I 
+X HB 2 -700 0 200 R 40 40 0 0 B 
+X HS 4 -700 -200 200 R 40 40 0 0 B 
+X VDD 1 700 500 200 L 40 40 0 0 W 
+X HO 3 700 300 200 L 40 40 0 0 O 
+X LO 8 700 200 200 L 40 40 0 0 O 
+X VSS 7 700 -400 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
