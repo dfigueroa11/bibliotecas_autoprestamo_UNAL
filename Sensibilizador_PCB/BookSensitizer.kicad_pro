@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BookSensithyzer.kicad_pro",
+    "filename": "BookSensitizer.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -320,6 +320,14 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "ac1f6bdf-cc2d-42eb-9880-0e22aa420d30",
+      "driver1"
+    ],
+    [
+      "57202eac-790f-4d9e-a893-d48008c42ac0",
+      "driver2"
     ]
   ],
   "text_variables": {}
