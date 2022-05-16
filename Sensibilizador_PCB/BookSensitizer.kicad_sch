@@ -1074,7 +1074,7 @@
   (symbol (lib_id "Connector:Jack-DC") (at 43.18 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ad995c74-93e4-43e4-ae47-fc44625eb182)
-    (property "Reference" "J1" (id 0) (at 43.18 116.84 0))
+    (property "Reference" "Vout_J1" (id 0) (at 43.18 116.84 0))
     (property "Value" "Jack_out" (id 1) (at 43.18 119.38 0))
     (property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal" (id 2) (at 44.45 126.746 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1191,7 +1191,7 @@
   (symbol (lib_id "Connector:Jack-DC") (at 68.58 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f71f80e1-f664-4725-acdd-4c8e029873e4)
-    (property "Reference" "J2" (id 0) (at 68.58 116.84 0))
+    (property "Reference" "Vin_J2" (id 0) (at 68.58 116.84 0))
     (property "Value" "Jack_in" (id 1) (at 68.58 119.38 0))
     (property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal" (id 2) (at 69.85 126.746 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1397,12 +1397,6 @@
     (path "/b78ff476-bba7-48f9-bffc-676c85d1fa5a"
       (reference "F1") (unit 1) (value "Fuse") (footprint "Connector:porta_fusible")
     )
-    (path "/ad995c74-93e4-43e4-ae47-fc44625eb182"
-      (reference "J1") (unit 1) (value "Jack_out") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
-    )
-    (path "/f71f80e1-f664-4725-acdd-4c8e029873e4"
-      (reference "J2") (unit 1) (value "Jack_in") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
-    )
     (path "/2f75c6b7-af61-4db2-83bf-b2d5e7c5c4ff"
       (reference "J3") (unit 1) (value "Conn_inputs") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
     )
@@ -1452,16 +1446,22 @@
       (reference "R8") (unit 1) (value " 2.74 1{slash}4W") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/e549455c-25cd-4632-8f00-16a0f558821b"
-      (reference "RHon1") (unit 1) (value " 2.74 1{slash}4W") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+      (reference "R9") (unit 1) (value " 2.74 1{slash}4W") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/57202eac-790f-4d9e-a893-d48008c42ac0/e549455c-25cd-4632-8f00-16a0f558821b"
-      (reference "RHon2") (unit 1) (value " 2.74 1{slash}4W") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+      (reference "R10") (unit 1) (value " 2.74 1{slash}4W") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/efbbbf4a-ba87-4fff-951e-42fd27464d32"
       (reference "U1") (unit 1) (value "LM5104M") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/57202eac-790f-4d9e-a893-d48008c42ac0/efbbbf4a-ba87-4fff-951e-42fd27464d32"
       (reference "U2") (unit 1) (value "LM5104M") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/f71f80e1-f664-4725-acdd-4c8e029873e4"
+      (reference "Vin_J2") (unit 1) (value "Jack_in") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
+    )
+    (path "/ad995c74-93e4-43e4-ae47-fc44625eb182"
+      (reference "Vout_J1") (unit 1) (value "Jack_out") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
     )
   )
 )
