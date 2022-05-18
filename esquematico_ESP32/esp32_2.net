@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\Users\\Prometeo\\Documents\\GitHub\\bibliotecas_autoprestamo_UNAL\\esquematico_ESP32\\esp32_2.kicad_sch")
-    (date "5/18/2022 12:36:45 AM")
+    (date "5/18/2022 2:02:14 AM")
     (tool "Eeschema (6.0.1)")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -143,7 +143,7 @@
       (tstamps "f0f39cd4-ec10-4740-8c9f-2a648fe1ba10"))
     (comp (ref "SW1")
       (value "SW_Push")
-      (footprint "Button_Switch_SMD:SW_SPST_EVQQ2")
+      (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
       (datasheet "~")
       (libsource (lib "Switch") (part "SW_Push") (description "Push button switch, generic, two pins"))
       (property (name "Sheetname") (value ""))

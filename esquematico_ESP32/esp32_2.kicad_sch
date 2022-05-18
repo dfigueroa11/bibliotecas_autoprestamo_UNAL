@@ -646,7 +646,6 @@
     )
   )
 
-
   (junction (at 160.02 57.15) (diameter 0) (color 0 0 0 0)
     (uuid a0d22926-6b48-4ebe-8fe0-7624d7c060d4)
   )
@@ -1187,7 +1186,7 @@
     (uuid 68435389-e911-43d9-accd-f38462c79cab)
     (property "Reference" "SW1" (id 0) (at 142.24 49.53 0))
     (property "Value" "SW_Push" (id 1) (at 142.24 52.07 0))
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_EVQQ2" (id 2) (at 142.24 52.07 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" (id 2) (at 142.24 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 142.24 52.07 0)
@@ -1709,7 +1708,7 @@
       (reference "R11") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/68435389-e911-43d9-accd-f38462c79cab"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_EVQQ2")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
     )
     (path "/7c72e10d-5c27-41ab-9844-8a388c7b7003"
       (reference "SW2") (unit 1) (value "Enable") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
