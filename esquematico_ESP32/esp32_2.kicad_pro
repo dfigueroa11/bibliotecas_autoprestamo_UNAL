@@ -380,7 +380,6 @@
         "name": "3v",
         "nets": [
           "+3V3",
-          "Net-(C9-Pad1)",
           "Net-(D3-Pad1)",
           "Net-(D4-Pad2)",
           "Net-(FB1-Pad1)"
