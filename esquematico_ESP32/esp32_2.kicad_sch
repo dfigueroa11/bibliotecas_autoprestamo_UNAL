@@ -831,10 +831,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c778bce4-ea38-4125-82e9-15b1058f6296)
   )
-  (wire (pts (xy 220.98 127) (xy 220.98 125.73))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c7a1bab5-d39c-4a26-a389-e43239c9e9c4)
-  )
   (wire (pts (xy 160.02 86.36) (xy 160.02 85.09))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid de4cb27a-9693-43bf-a450-f12b58de1455)
@@ -1132,17 +1128,17 @@
     (pin "1" (uuid 05dfeb29-650e-4ed2-94c7-8863543ca180))
   )
 
-  (symbol (lib_id "power:GND") (at 220.98 127 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 220.98 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3a68ba17-675a-499c-aeab-adced175ebb2)
-    (property "Reference" "#PWR015" (id 0) (at 220.98 133.35 0)
+    (property "Reference" "#PWR015" (id 0) (at 220.98 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (id 1) (at 220.98 132.08 0))
-    (property "Footprint" "" (id 2) (at 220.98 127 0)
+    (property "Value" "GND" (id 1) (at 220.98 130.81 0))
+    (property "Footprint" "" (id 2) (at 220.98 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 220.98 127 0)
+    (property "Datasheet" "" (id 3) (at 220.98 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1fdf6e5a-2618-4109-94de-8c4585771a60))
@@ -1167,7 +1163,7 @@
   (symbol (lib_id "Connector:Conn_01x05_Female") (at 269.24 62.23 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5b1134d1-ab5f-48fa-b527-ffdc1b4c5ff5)
-    (property "Reference" "J1" (id 0) (at 262.89 53.34 0)
+    (property "Reference" "Programador1" (id 0) (at 262.89 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05_Female" (id 1) (at 259.08 50.8 0)
@@ -1205,7 +1201,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7c72e10d-5c27-41ab-9844-8a388c7b7003)
     (property "Reference" "SW2" (id 0) (at 142.24 78.74 0))
-    (property "Value" "SW_Push" (id 1) (at 142.24 81.28 0))
+    (property "Value" "Enable" (id 1) (at 142.24 81.28 0))
     (property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" (id 2) (at 142.24 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1649,20 +1645,17 @@
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/6548d242-5075-4aa4-ae07-1fa2ed98c9ee"
       (reference "FB2") (unit 1) (value "FerriteBead") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/5b1134d1-ab5f-48fa-b527-ffdc1b4c5ff5"
-      (reference "J1") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal")
-    )
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/85341b1b-6741-403d-8334-5a36fd82bc82"
-      (reference "J2") (unit 1) (value "Conn_RFID1") (footprint "")
+      (reference "J2") (unit 1) (value "Conn_RFID1") (footprint "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal")
     )
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/6f9cf025-6ba5-425e-926b-ef8018e09a41"
-      (reference "J3") (unit 1) (value "Conn_RFID2") (footprint "")
+      (reference "J3") (unit 1) (value "Conn_RFID2") (footprint "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal")
     )
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/8229cf0f-f13e-4fa4-b883-d7fe056db563"
       (reference "J4") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Molex_67643_Horizontal")
     )
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/879dbbe4-ae64-435d-b735-afdb7f43184d"
-      (reference "J5") (unit 1) (value "Conn_screen") (footprint "")
+      (reference "J5") (unit 1) (value "Conn_screen") (footprint "Connector_JST:JST_EH_S10B-EH_1x10_P2.50mm_Horizontal")
     )
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/30b53b81-8d67-451d-9f9a-fabac55afe7e"
       (reference "J6") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
@@ -1672,6 +1665,9 @@
     )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/ab816942-ca37-4395-8381-87b62ed341fa/1c0db303-6554-463d-b3e6-31f60af3b913"
       (reference "L1") (unit 1) (value "L") (footprint "Inductor_SMD:L_Neosid_SM-PIC0612H")
+    )
+    (path "/5b1134d1-ab5f-48fa-b527-ffdc1b4c5ff5"
+      (reference "Programador1") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal")
     )
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/f793cc0c-ede8-43dc-9a01-a81d5ad3f9fc/698ef3e5-c802-45b7-80dd-701416eb8328"
       (reference "Q1") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -1716,7 +1712,7 @@
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_EVQQ2")
     )
     (path "/7c72e10d-5c27-41ab-9844-8a388c7b7003"
-      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
+      (reference "SW2") (unit 1) (value "Enable") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
     )
     (path "/f73cbebc-ac60-4edc-9956-efadf364e1f4"
       (reference "U1") (unit 1) (value "ESP32-WROOM-32") (footprint "RF_Module:ESP32-WROOM-32")
