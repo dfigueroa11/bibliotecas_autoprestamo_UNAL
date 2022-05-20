@@ -1544,15 +1544,6 @@
     (path "/163963d5-9627-43e4-ac5c-e10ad7299143"
       (reference "#PWR0104") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/b2fca1fc-8d55-4658-8721-548fa4e11835"
-      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/19ae38b6-aa07-4b33-9ede-24b784548caa"
-      (reference "#PWR0106") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/519b1c4e-ac36-4cc7-ad50-ac716ddb4e04"
-      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
-    )
     (path "/c68781dd-0297-4f6e-84e0-25d6f076977b"
       (reference "C1") (unit 1) (value "1nf") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -1669,9 +1660,6 @@
     )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/ab816942-ca37-4395-8381-87b62ed341fa/460d493e-4fb5-43ee-8566-b6feef886907"
       (reference "U3") (unit 1) (value "LM2596S-5") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
-    )
-    (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/b33c26e5-c2b9-4aac-b911-133539770d9a"
-      (reference "verificación1") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
   )
 )
