@@ -552,58 +552,6 @@
         )
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -662,7 +610,6 @@
     (uuid edec5da2-e547-4328-a9fc-85387ada2e7c)
   )
 
-  (no_connect (at 264.16 67.31) (uuid 3a592347-f928-48fe-96f2-82181c5a596f))
   (no_connect (at 205.74 64.77) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0aa))
   (no_connect (at 205.74 67.31) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0ab))
   (no_connect (at 236.22 85.09) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0ac))
@@ -673,6 +620,7 @@
   (no_connect (at 205.74 95.25) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0b1))
   (no_connect (at 205.74 97.79) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0b2))
   (no_connect (at 205.74 100.33) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0b3))
+  (no_connect (at 264.16 57.15) (uuid ae5dfa19-b75b-4084-98df-2f6c238e1010))
   (no_connect (at 236.22 80.01) (uuid d63bb756-117c-400a-bd7d-cb4352d51ebb))
   (no_connect (at 236.22 77.47) (uuid d63bb756-117c-400a-bd7d-cb4352d51ebc))
 
@@ -1079,6 +1027,24 @@
     (pin "1" (uuid f8d6a90f-4a5d-4a03-88ca-27e1d4b3b125))
   )
 
+  (symbol (lib_id "power:+3.3V") (at 264.16 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 163963d5-9627-43e4-ac5c-e10ad7299143)
+    (property "Reference" "#PWR0104" (id 0) (at 267.97 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (id 1) (at 261.62 69.215 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (id 2) (at 264.16 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 264.16 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cfa7d3f6-0cc9-4375-a0ac-d721b57ce3a3))
+  )
+
   (symbol (lib_id "power:+3.3V") (at 160.02 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 218cf99f-5378-441d-aaf5-b350658a8e6d)
@@ -1277,24 +1243,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 75e5a1aa-2b0e-4416-bf98-4e099dfee4d6))
-  )
-
-  (symbol (lib_id "power:+5V") (at 264.16 57.15 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid ec8a206d-51d0-4b19-ba1c-de1123777a8c)
-    (property "Reference" "#PWR016" (id 0) (at 267.97 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 260.35 57.1499 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 264.16 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 264.16 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d1f1d581-3b7c-42b3-a5ee-9b5b51116113))
   )
 
   (symbol (lib_id "Device:C") (at 147.32 95.25 90) (unit 1)
@@ -1509,9 +1457,6 @@
     (path "/3a68ba17-675a-499c-aeab-adced175ebb2"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ec8a206d-51d0-4b19-ba1c-de1123777a8c"
-      (reference "#PWR016") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/e2ad1c6b-bcd4-4f7f-9fda-ff086ea46df4"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
@@ -1595,6 +1540,18 @@
     )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/ab816942-ca37-4395-8381-87b62ed341fa/5564e1ca-b41b-4db3-a9e8-1cb5fe72b7f9"
       (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/163963d5-9627-43e4-ac5c-e10ad7299143"
+      (reference "#PWR0104") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/b2fca1fc-8d55-4658-8721-548fa4e11835"
+      (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/19ae38b6-aa07-4b33-9ede-24b784548caa"
+      (reference "#PWR0106") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/519b1c4e-ac36-4cc7-ad50-ac716ddb4e04"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
     (path "/c68781dd-0297-4f6e-84e0-25d6f076977b"
       (reference "C1") (unit 1) (value "1nf") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -1712,6 +1669,9 @@
     )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/ab816942-ca37-4395-8381-87b62ed341fa/460d493e-4fb5-43ee-8566-b6feef886907"
       (reference "U3") (unit 1) (value "LM2596S-5") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
+    )
+    (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/b33c26e5-c2b9-4aac-b911-133539770d9a"
+      (reference "verificación1") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
   )
 )
