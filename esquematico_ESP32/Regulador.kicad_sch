@@ -544,7 +544,7 @@
     (property "Value" "220u" (id 1) (at 182.88 92.4559 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:CP_Elec_8x6.9" (id 2) (at 180.0352 95.885 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (id 2) (at 180.0352 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 179.07 92.075 0)
