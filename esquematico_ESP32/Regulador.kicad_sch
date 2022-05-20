@@ -563,7 +563,7 @@
     (property "Value" "1N5825" (id 1) (at 154.94 95.2499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_THT:D_DO-27_P12.70mm_Horizontal" (id 2) (at 151.13 93.98 0)
+    (property "Footprint" "Diode_THT:D_DO-201AE_P5.08mm_Vertical_AnodeUp" (id 2) (at 151.13 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 151.13 93.98 0)
