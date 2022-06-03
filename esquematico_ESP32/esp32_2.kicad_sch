@@ -611,7 +611,7 @@
   )
 
   (no_connect (at 236.22 115.57) (uuid 4de62650-6a6f-4b36-9f1f-00108ed57a14))
-  (no_connect (at 236.22 118.11) (uuid 4de62650-6a6f-4b36-9f1f-00108ed57a14))
+  (no_connect (at 236.22 118.11) (uuid 4de62650-6a6f-4b36-9f1f-00108ed57a15))
   (no_connect (at 205.74 64.77) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0aa))
   (no_connect (at 205.74 67.31) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0ab))
   (no_connect (at 205.74 102.87) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0ad))
@@ -995,7 +995,7 @@
     (property "Reference" "C3" (id 0) (at 200.66 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100u" (id 1) (at 195.58 46.99 0)
+    (property "Value" "100n" (id 1) (at 195.58 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 207.9752 49.53 0)
@@ -1554,7 +1554,7 @@
       (reference "C2") (unit 1) (value "1nf") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/0a8fb98b-26c6-43af-94b5-0a498a75c195"
-      (reference "C3") (unit 1) (value "100u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/47a92999-85b6-4838-bf9c-de8805710a0e"
       (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
