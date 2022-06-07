@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/diegofigueroa/Documents/GitHub/bibliotecas_autoprestamo_UNAL/Sensibilizador_PCB/BookSensitizer.kicad_sch</source>
+    <date>2022 June 02, Thursday 15:05:15</date>
+    <tool>Eeschema (6.0.5-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BookSensitizer.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Mosfet_driver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Mosfet_driver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/ventilador/" tstamps="/c4466fb8-53bb-4e76-a975-4dafac027fd2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ventilador.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>F10L60u</value>
+      <footprint>Package_TO_SOT_THT:TO-220-2_Vertical</footprint>
+      <datasheet>https://pdf1.alldatasheet.com/datasheet-pdf/view/44022/SHINDENGEN/F10L60U.html</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>122fcd36-106e-480e-b0a6-fd05685cee86</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>F10L60u</value>
+      <footprint>Package_TO_SOT_THT:TO-220-2_Vertical</footprint>
+      <datasheet>https://pdf1.alldatasheet.com/datasheet-pdf/view/44022/SHINDENGEN/F10L60U.html</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43382b96-0069-400f-8701-a40c7e98cb37</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>F10L60u</value>
+      <footprint>Package_TO_SOT_THT:TO-220-2_Vertical</footprint>
+      <datasheet>https://pdf1.alldatasheet.com/datasheet-pdf/view/44022/SHINDENGEN/F10L60U.html</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2781d6f9-a38e-4e6f-af51-b19f98723b42</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>F10L60u</value>
+      <footprint>Package_TO_SOT_THT:TO-220-2_Vertical</footprint>
+      <datasheet>https://pdf1.alldatasheet.com/datasheet-pdf/view/44022/SHINDENGEN/F10L60U.html</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a4df437-278a-496a-b239-b2740343b3dc</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Connector:porta_fusible</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b78ff476-bba7-48f9-bffc-676c85d1fa5a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_inputs</value>
+      <footprint>Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f75c6b7-af61-4db2-83bf-b2d5e7c5c4ff</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>L</value>
+      <footprint>Connector:conector Faston</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d58551ab-7f8e-41c4-b486-4a9d9b32aa77</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF630</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.sigmaelectronica.net/manuals/irf630.pdf</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9beddae-efb0-4907-9dd4-27f0d4d67c50</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF630</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.sigmaelectronica.net/manuals/irf630.pdf</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91e2b4ea-dff1-4cd2-a18d-43269fa60fdb</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>IRF630</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.sigmaelectronica.net/manuals/irf630.pdf</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea082e2d-e626-46c9-9800-22e49563b8e0</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>IRF630</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.sigmaelectronica.net/manuals/irf630.pdf</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c682fb3c-6361-42f5-9646-076f045845ad</tstamps>
+    </comp>
+    <comp ref="Vin_J2">
+      <value>Jack_in</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f71f80e1-f664-4725-acdd-4c8e029873e4</tstamps>
+    </comp>
+    <comp ref="Vout_J1">
+      <value>Jack_out</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <libsource lib="Connector" part="Jack-DC" description="DC Barrel Jack"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BookSensitizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad995c74-93e4-43e4-ae47-fc44625eb182</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1uF 50V</value>
+      <footprint>Capacitor_SMD:C_Elec_4x5.4</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>6f92decc-504d-40f9-a8d3-6217d7040f61</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>1d52d44f-853b-4d17-9aa5-e6400ac303d8</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10nF  25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>94954929-000b-4389-be8a-04c398920c34</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SS34FA</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.sigmaelectronica.net/wp-content/uploads/2020/09/SS36FA_D-1658868.pdf</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>a9ae47de-03c4-4e71-a878-e0f67a7dba90</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>SS34FA</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.sigmaelectronica.net/wp-content/uploads/2020/09/SS36FA_D-1658868.pdf</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>76603984-ea97-4634-8789-7f6d4c93689b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>43b12cbe-f1f2-4c11-a832-5a85617487e4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value> 2.74 1/4W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>999d8fda-ba4b-4e66-8393-f4f72ce810c2</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value> 2.74 1/4W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>74c2319f-fe1f-46ad-bc64-4771b31d8252</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value> 2.74 1/4W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>870ffa8a-02fb-408e-b8f0-904d41d725d4</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value> 2.74 1/4W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>e549455c-25cd-4632-8f00-16a0f558821b</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM5104M</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm5104.pdf?ts=1652139715416&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5104%253FkeyMatch%253DLM5104%2526tisearch%253Dsearch-everything%2526usecase%253DGPN</datasheet>
+      <libsource lib="LM5104M" part="LM5104M" description=""/>
+      <property name="Sheetname" value="driver1"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver1/" tstamps="/ac1f6bdf-cc2d-42eb-9880-0e22aa420d30/"/>
+      <tstamps>efbbbf4a-ba87-4fff-951e-42fd27464d32</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF 50V</value>
+      <footprint>Capacitor_SMD:C_Elec_4x5.4</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>6f92decc-504d-40f9-a8d3-6217d7040f61</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF 50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>1d52d44f-853b-4d17-9aa5-e6400ac303d8</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10nF  25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>94954929-000b-4389-be8a-04c398920c34</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>SS34FA</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.sigmaelectronica.net/wp-content/uploads/2020/09/SS36FA_D-1658868.pdf</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>a9ae47de-03c4-4e71-a878-e0f67a7dba90</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>SS34FA</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.sigmaelectronica.net/wp-content/uploads/2020/09/SS36FA_D-1658868.pdf</datasheet>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>76603984-ea97-4634-8789-7f6d4c93689b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>43b12cbe-f1f2-4c11-a832-5a85617487e4</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value> 2.74 1/4W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>999d8fda-ba4b-4e66-8393-f4f72ce810c2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value> 2.74 1/4W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>74c2319f-fe1f-46ad-bc64-4771b31d8252</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value> 2.74 1/4W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>870ffa8a-02fb-408e-b8f0-904d41d725d4</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value> 2.74 1/4W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>e549455c-25cd-4632-8f00-16a0f558821b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM5104M</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm5104.pdf?ts=1652139715416&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM5104%253FkeyMatch%253DLM5104%2526tisearch%253Dsearch-everything%2526usecase%253DGPN</datasheet>
+      <libsource lib="LM5104M" part="LM5104M" description=""/>
+      <property name="Sheetname" value="driver2"/>
+      <property name="Sheetfile" value="Mosfet_driver.kicad_sch"/>
+      <sheetpath names="/driver2/" tstamps="/57202eac-790f-4d9e-a893-d48008c42ac0/"/>
+      <tstamps>efbbbf4a-ba87-4fff-951e-42fd27464d32</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Fan</value>
+      <footprint>Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical</footprint>
+      <datasheet>https://articulo.mercadolibre.com.co/MCO-573178334-ventilador-12v-4cm-x-4cm-x-1cm-11w-_JM?matt_tool=15557168&amp;matt_word=&amp;matt_source=google&amp;matt_campaign_id=14634237758&amp;matt_ad_group_id=122266241930&amp;matt_match_type=&amp;matt_network=g&amp;matt_device=c&amp;matt_creative=545507349257&amp;matt_keyword=&amp;matt_ad_position=&amp;matt_ad_type=pla&amp;matt_merchant_id=156231180&amp;matt_product_id=MCO573178334&amp;matt_product_partition_id=1635222317449&amp;matt_target_id=pla-1635222317449&amp;gclid=Cj0KCQjwyYKUBhDJARIsAMj9lkHhFULJaS8ryZ3UR6tO_</datasheet>
+      <libsource lib="Motor" part="Fan" description="Fan"/>
+      <property name="Sheetname" value="ventilador"/>
+      <property name="Sheetfile" value="ventilador.kicad_sch"/>
+      <sheetpath names="/ventilador/" tstamps="/c4466fb8-53bb-4e76-a975-4dafac027fd2/"/>
+      <tstamps>8b8bdd3a-aae0-4810-bf32-050bf0f7c841</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>SI2302</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.vistronica.com/componentes-activos/transistores/transistor-mosfet-si2302a2shb-20v-3a-smd-sot-23-detail.html</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="Sheetname" value="ventilador"/>
+      <property name="Sheetfile" value="ventilador.kicad_sch"/>
+      <sheetpath names="/ventilador/" tstamps="/c4466fb8-53bb-4e76-a975-4dafac027fd2/"/>
+      <tstamps>af7be498-11e7-4636-a3a9-88830f7d9a5f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Jack-DC">
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Jack-DC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LM5104M" part="LM5104M">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">LM5104M</field>
+        <field name="Footprint">SOIC127P599X175-8N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="HB" type="bidirectional"/>
+        <pin num="3" name="HO" type="output"/>
+        <pin num="4" name="HS" type="bidirectional"/>
+        <pin num="5" name="RT" type="input"/>
+        <pin num="6" name="LI" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="LO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Fan">
+      <description>Fan</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Fan</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Motor.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="M1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="Vout_J1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/driver1/G_High">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/driver1/G_low">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/driver1/Hs">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="HS" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/driver2/G_High">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/driver2/G_low">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/driver2/Hs">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="HS" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/in_1">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="LI" pintype="input"/>
+    </net>
+    <net code="9" name="/in_2">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="LI" pintype="input"/>
+    </net>
+    <net code="10" name="/in_3">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="VSS" pintype="power_in"/>
+      <node ref="Vin_J2" pin="2" pintype="passive"/>
+      <node ref="Vout_J1" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="HB" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="HB" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="Vin_J2" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(M1-Pad2)">
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="RT" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="HO" pintype="output"/>
+    </net>
+    <net code="22" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="LO" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="RT" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="LO" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="HO" pintype="output"/>
+    </net>
+  </nets>
+</export>

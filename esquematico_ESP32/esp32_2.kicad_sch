@@ -552,58 +552,6 @@
         )
       )
     )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -662,17 +610,17 @@
     (uuid edec5da2-e547-4328-a9fc-85387ada2e7c)
   )
 
-  (no_connect (at 264.16 67.31) (uuid 3a592347-f928-48fe-96f2-82181c5a596f))
+  (no_connect (at 236.22 115.57) (uuid 4de62650-6a6f-4b36-9f1f-00108ed57a14))
+  (no_connect (at 236.22 118.11) (uuid 4de62650-6a6f-4b36-9f1f-00108ed57a15))
   (no_connect (at 205.74 64.77) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0aa))
   (no_connect (at 205.74 67.31) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0ab))
-  (no_connect (at 236.22 85.09) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0ac))
   (no_connect (at 205.74 102.87) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0ad))
-  (no_connect (at 236.22 105.41) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0ae))
   (no_connect (at 205.74 90.17) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0af))
   (no_connect (at 205.74 92.71) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0b0))
   (no_connect (at 205.74 95.25) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0b1))
   (no_connect (at 205.74 97.79) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0b2))
   (no_connect (at 205.74 100.33) (uuid 7fc22c3d-a6c8-4c35-9b67-f977f16dc0b3))
+  (no_connect (at 264.16 57.15) (uuid ae5dfa19-b75b-4084-98df-2f6c238e1010))
   (no_connect (at 236.22 80.01) (uuid d63bb756-117c-400a-bd7d-cb4352d51ebb))
   (no_connect (at 236.22 77.47) (uuid d63bb756-117c-400a-bd7d-cb4352d51ebc))
 
@@ -888,7 +836,7 @@
     (uuid c186c00e-7318-4196-ba1b-54f5a0282581)
   )
 
-  (label "MAGNE_3" (at 236.22 102.87 0)
+  (label "MAGNE_3" (at 236.22 85.09 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0a1601f2-92ff-41eb-9e21-b4d9247d1707)
   )
@@ -940,7 +888,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5055d6d7-c518-49b0-a27b-2e258fd45bb9)
   )
-  (label "D{slash}C" (at 236.22 118.11 0)
+  (label "D{slash}C" (at 236.22 105.41 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 52cf8a63-0c7d-48e3-ab3b-e6d4482b5697)
   )
@@ -968,7 +916,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 77779c75-9e15-4ea8-beeb-b7047d04224b)
   )
-  (label "RST_D" (at 236.22 115.57 0)
+  (label "RST_D" (at 236.22 102.87 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 78a573e1-9ddd-4227-b014-3c138f45f799)
   )
@@ -984,7 +932,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 917c585b-4745-4de9-aeff-9f6e5ea7bb98)
   )
-  (label "MAGNE_2" (at 87.63 82.55 0)
+  (label "MAGNE_2" (at 87.63 82.3976 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9b9af431-a609-4962-af2f-daee7cc9d5ba)
   )
@@ -996,7 +944,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9d16e402-60ab-4345-84a0-24adff7bcdb2)
   )
-  (label "MAGNE_1" (at 87.63 80.01 0)
+  (label "MAGNE_1" (at 87.63 80.2894 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b0c914dd-c8a2-408e-8a1a-8ad5b52e4ef2)
   )
@@ -1012,7 +960,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bf7504fd-43a6-45d8-a78e-5aecae590f83)
   )
-  (label "MAGNE_3" (at 87.63 85.09 0)
+  (label "MAGNE_3" (at 87.63 84.9376 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c161cd88-5353-4732-beed-0b192de81b2f)
   )
@@ -1047,7 +995,7 @@
     (property "Reference" "C3" (id 0) (at 200.66 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100u" (id 1) (at 195.58 46.99 0)
+    (property "Value" "100n" (id 1) (at 195.58 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 207.9752 49.53 0)
@@ -1077,6 +1025,24 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f8d6a90f-4a5d-4a03-88ca-27e1d4b3b125))
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 264.16 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 163963d5-9627-43e4-ac5c-e10ad7299143)
+    (property "Reference" "#PWR0104" (id 0) (at 267.97 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (id 1) (at 261.62 69.215 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (id 2) (at 264.16 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 264.16 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cfa7d3f6-0cc9-4375-a0ac-d721b57ce3a3))
   )
 
   (symbol (lib_id "power:+3.3V") (at 160.02 74.93 0) (unit 1)
@@ -1159,16 +1125,16 @@
     (pin "1" (uuid 32b8d379-2684-42e2-8c66-402b70e47eb2))
   )
 
-  (symbol (lib_id "Connector:Conn_01x05_Female") (at 269.24 62.23 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x05_Female") (at 269.24 62.23 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5b1134d1-ab5f-48fa-b527-ffdc1b4c5ff5)
-    (property "Reference" "Programador1" (id 0) (at 262.89 53.34 0)
+    (property "Reference" "Program1" (id 0) (at 262.89 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x05_Female" (id 1) (at 259.08 50.8 0)
+    (property "Value" "Conn_01x05_Female" (id 1) (at 259.08 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal" (id 2) (at 269.24 62.23 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" (id 2) (at 269.24 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 269.24 62.23 0)
@@ -1184,7 +1150,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 142.24 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 68435389-e911-43d9-accd-f38462c79cab)
-    (property "Reference" "SW1" (id 0) (at 142.24 49.53 0))
+    (property "Reference" "Boot1" (id 0) (at 142.24 49.53 0))
     (property "Value" "SW_Push" (id 1) (at 142.24 52.07 0))
     (property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" (id 2) (at 142.24 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1199,7 +1165,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 142.24 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7c72e10d-5c27-41ab-9844-8a388c7b7003)
-    (property "Reference" "SW2" (id 0) (at 142.24 78.74 0))
+    (property "Reference" "Rst1" (id 0) (at 142.24 78.74 0))
     (property "Value" "Enable" (id 1) (at 142.24 81.28 0))
     (property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" (id 2) (at 142.24 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1277,24 +1243,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 75e5a1aa-2b0e-4416-bf98-4e099dfee4d6))
-  )
-
-  (symbol (lib_id "power:+5V") (at 264.16 57.15 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid ec8a206d-51d0-4b19-ba1c-de1123777a8c)
-    (property "Reference" "#PWR016" (id 0) (at 267.97 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 260.35 57.1499 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (id 2) (at 264.16 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 264.16 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d1f1d581-3b7c-42b3-a5ee-9b5b51116113))
   )
 
   (symbol (lib_id "Device:C") (at 147.32 95.25 90) (unit 1)
@@ -1433,17 +1381,13 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8179b66d-1f6d-4cd3-85ac-0088c17d8ab7)
     )
-    (pin "MAGNE_2" input (at 87.63 80.01 0)
+    (pin "MAGNE_2" input (at 87.63 82.3976 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 3134a37e-4e94-4ce0-8777-dc0fd9c079bf)
     )
-    (pin "MAGNE_3" input (at 87.63 82.55 0)
+    (pin "MAGNE_3" input (at 87.63 84.9376 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 1d8cd185-31ae-4cdb-bfef-458414853ac7)
-    )
-    (pin "MAGNE_4" input (at 87.63 85.09 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 0d8bd732-92ff-418f-b62b-34a5c956989b)
     )
     (pin "CS_LECTOR_1" input (at 36.83 57.15 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1477,6 +1421,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 91731390-ee36-4e90-8120-5ed87163c64b)
     )
+    (pin "MAGNE_1" input (at 87.63 80.2894 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a5f54eb5-7b4c-47f8-985e-e5de0cfef5c0)
+    )
   )
 
   (sheet_instances
@@ -1508,9 +1456,6 @@
     )
     (path "/3a68ba17-675a-499c-aeab-adced175ebb2"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ec8a206d-51d0-4b19-ba1c-de1123777a8c"
-      (reference "#PWR016") (unit 1) (value "+5V") (footprint "")
     )
     (path "/e2ad1c6b-bcd4-4f7f-9fda-ff086ea46df4"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
@@ -1596,6 +1541,12 @@
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/ab816942-ca37-4395-8381-87b62ed341fa/5564e1ca-b41b-4db3-a9e8-1cb5fe72b7f9"
       (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/163963d5-9627-43e4-ac5c-e10ad7299143"
+      (reference "#PWR0104") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/68435389-e911-43d9-accd-f38462c79cab"
+      (reference "Boot1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
+    )
     (path "/c68781dd-0297-4f6e-84e0-25d6f076977b"
       (reference "C1") (unit 1) (value "1nf") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -1603,7 +1554,7 @@
       (reference "C2") (unit 1) (value "1nf") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/0a8fb98b-26c6-43af-94b5-0a498a75c195"
-      (reference "C3") (unit 1) (value "100u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/47a92999-85b6-4838-bf9c-de8805710a0e"
       (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -1621,19 +1572,19 @@
       (reference "C8") (unit 1) (value "470u") (footprint "Capacitor_SMD:CP_Elec_8x6.9")
     )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/ab816942-ca37-4395-8381-87b62ed341fa/6adfb656-fadb-4782-8076-f8717b94ce86"
-      (reference "C10") (unit 1) (value "220u") (footprint "Capacitor_SMD:CP_Elec_8x6.9")
+      (reference "C10") (unit 1) (value "220u") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
     )
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/7cbb4cf2-d39b-4cae-b2fd-23730c35b330"
-      (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+      (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/22d464c6-72d8-4902-9692-dba24d8c5eeb"
-      (reference "D2") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+      (reference "D2") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/e710667c-e0ed-412c-93d4-770d06307d44"
-      (reference "D3") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+      (reference "D3") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/ab816942-ca37-4395-8381-87b62ed341fa/98c852c7-4008-4e0f-89ac-3d2c8aa0e3a2"
-      (reference "D4") (unit 1) (value "1N5825") (footprint "Diode_THT:D_DO-27_P12.70mm_Horizontal")
+      (reference "D4") (unit 1) (value "1N5825") (footprint "Diode_THT:D_DO-201AE_P5.08mm_Vertical_AnodeUp")
     )
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/871fe201-8570-4ab4-b58c-0d248a209c25"
       (reference "FB1") (unit 1) (value "FerriteBead") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -1641,29 +1592,11 @@
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/6548d242-5075-4aa4-ae07-1fa2ed98c9ee"
       (reference "FB2") (unit 1) (value "FerriteBead") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/85341b1b-6741-403d-8334-5a36fd82bc82"
-      (reference "J2") (unit 1) (value "Conn_RFID1") (footprint "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal")
-    )
-    (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/6f9cf025-6ba5-425e-926b-ef8018e09a41"
-      (reference "J3") (unit 1) (value "Conn_RFID2") (footprint "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal")
-    )
-    (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/8229cf0f-f13e-4fa4-b883-d7fe056db563"
-      (reference "J4") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Molex_67643_Horizontal")
-    )
-    (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/879dbbe4-ae64-435d-b735-afdb7f43184d"
-      (reference "J5") (unit 1) (value "Conn_screen") (footprint "Connector_JST:JST_EH_S10B-EH_1x10_P2.50mm_Horizontal")
-    )
-    (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/30b53b81-8d67-451d-9f9a-fabac55afe7e"
-      (reference "J6") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
-    )
-    (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/c7bbaa02-ea12-48ec-bee0-393658dada9d"
-      (reference "J7") (unit 1) (value "Jack-DC") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
-    )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/ab816942-ca37-4395-8381-87b62ed341fa/1c0db303-6554-463d-b3e6-31f60af3b913"
       (reference "L1") (unit 1) (value "68u") (footprint "Inductor_SMD:L_Neosid_SM-PIC0612H")
     )
     (path "/5b1134d1-ab5f-48fa-b527-ffdc1b4c5ff5"
-      (reference "Programador1") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal")
+      (reference "Program1") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")
     )
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/f793cc0c-ede8-43dc-9a01-a81d5ad3f9fc/698ef3e5-c802-45b7-80dd-701416eb8328"
       (reference "Q1") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -1698,11 +1631,20 @@
     (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/f793cc0c-ede8-43dc-9a01-a81d5ad3f9fc/e47dfee4-8586-43a0-90c3-51066d051b92"
       (reference "R9") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/68435389-e911-43d9-accd-f38462c79cab"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
+    (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/85341b1b-6741-403d-8334-5a36fd82bc82"
+      (reference "RFID1") (unit 1) (value "J2") (footprint "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal")
+    )
+    (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/6f9cf025-6ba5-425e-926b-ef8018e09a41"
+      (reference "RFID2") (unit 1) (value "J3") (footprint "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal")
     )
     (path "/7c72e10d-5c27-41ab-9844-8a388c7b7003"
-      (reference "SW2") (unit 1) (value "Enable") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
+      (reference "Rst1") (unit 1) (value "Enable") (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
+    )
+    (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/30b53b81-8d67-451d-9f9a-fabac55afe7e"
+      (reference "Sensitizer1") (unit 1) (value "Conn_01x04_Female") (footprint "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal")
+    )
+    (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/8229cf0f-f13e-4fa4-b883-d7fe056db563"
+      (reference "Teclado1") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Molex_67643_Horizontal")
     )
     (path "/f73cbebc-ac60-4edc-9956-efadf364e1f4"
       (reference "U1") (unit 1) (value "ESP32-WROOM-32") (footprint "RF_Module:ESP32-WROOM-32")
@@ -1712,6 +1654,12 @@
     )
     (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/ab816942-ca37-4395-8381-87b62ed341fa/460d493e-4fb5-43ee-8566-b6feef886907"
       (reference "U3") (unit 1) (value "LM2596S-5") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
+    )
+    (path "/5125aeff-fbaf-4069-9b26-eba443c92f10/c7bbaa02-ea12-48ec-bee0-393658dada9d"
+      (reference "Vin1") (unit 1) (value "Jack-DC") (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
+    )
+    (path "/90dc18a7-d136-49c5-aca7-9f578dd2dde7/879dbbe4-ae64-435d-b735-afdb7f43184d"
+      (reference "screen1") (unit 1) (value "J5") (footprint "Connector_JST:JST_EH_S10B-EH_1x10_P2.50mm_Horizontal")
     )
   )
 )
