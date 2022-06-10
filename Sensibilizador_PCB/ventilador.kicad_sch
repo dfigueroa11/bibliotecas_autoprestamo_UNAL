@@ -173,7 +173,7 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Fan_0_1"
-        (arc (start -2.54 -0.508) (mid 0.0028 0.9121) (end 0 3.81)
+        (arc (start -2.54 -0.508) (mid -0.0014 0.9048) (end 0 3.81)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
@@ -213,7 +213,7 @@
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (arc (start 0 3.81) (mid 0.053 0.921) (end 2.54 -0.508)
+        (arc (start 0 3.81) (mid 0.0468 0.9314) (end 2.54 -0.508)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
