@@ -17,7 +17,7 @@ Integrantes:
 ### "[Micropython](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/tree/main/Micropython)" contiene los scripts utilizados para programar el microcontrolador de la solución.
 ### En "[Diseno_carcasa](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/tree/main/Diseno_carcasa)" se encuentran los modelos 3D, planos, DXFs y consideraciones físicas para la carcasa. 
 ### "[Lista_materiales.xlsx](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/blob/main/Lista_materiales.xlsx)" contiene la lista de materiales necesarios para el desarrollo del prototipo. 
-### "[Images](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/tree/main/Images)" almacena las imágenes utilizadas en la documentación y en los archivos readme de cada sección.
+### "[images](https://github.com/dfigueroa11/bibliotecas_autoprestamo_UNAL/tree/main/images)" almacena las imágenes utilizadas en la documentación y en los archivos readme de cada sección.
 
 
 
