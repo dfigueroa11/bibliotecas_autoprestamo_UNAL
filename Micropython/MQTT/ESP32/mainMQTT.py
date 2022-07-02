@@ -1,26 +1,22 @@
 from MQTTconnection import *
 
-class Communications:
-        
+class Communications:       
     
     def __init__(self):
-
         # WLAN network
-        net_name = "LA.CONSENTIDA"
-        net_password = "13g8o5l3d21"
-        #net_name = "Omega-9523"
-        #net_password = "12345678"
+        #net_name = "LA.CONSENTIDA"
+        #net_password = "13g8o5l3d21"
+        net_name = "Omega-9523"
+        net_password = "12345678"
         #net_name = "UNAL"
         #net_password = ""
-
         conect_to(net_name,net_password)
-
         try:
             self.client = connect_and_subscribe()
-            self.localID='8'
-            self.ticket=0 # Current ticket
+            self.localID='2'
+            self.libro=0 # Current libro
             self.last_topic='SI/Petition'
-            self.last_message={"LocalID":"1"}
+            self.last_message={"LocalID":"2"}
             self.pending_incoming_message=False
             self.last_pending=False
         except OSError as e:
@@ -39,24 +35,28 @@ class Communications:
         self.last_pending=self.pending_incoming_message
         return topic, message, self.pending_incoming_message
 
-    def send(self, topic, userID='', ticket=0, comedor=1):
+    def send(self, topic, userID='', libro=0, ):
         data={'LocalID':self.localID,
-            'group': 3
+            'group': 2
             }
-        if topic=='Easymeals/Payment':
+        if topic=='bibliotecas/validate':
+            data={
+            'LocalID':self.localID,
+            'ID': userID
+            }
+        elif topic=='bibliotecas/borrow':
             data={
             'LocalID':self.localID,
             'ID': userID
             }
             self.client.publish(topic, json.dumps(data),True,1)
-        elif topic=='Easymeals/Update':
+        elif topic=='Easymeals/give_back':
             data={
             'LocalID':self.localID,
-            'ticket': ticket,
-            'Comedor':comedor
+            'libro': libro
             }
-            if ticket!=0:
-                self.ticket=ticket
+            if libro!=0:
+                self.libro=libro
             self.client.publish(topic, json.dumps(data),True,1)
         elif topic=='SI/Petition':
             print('Loop SI availability secured', '\n')
