@@ -26,7 +26,6 @@ def conect_to(SSID, PASSWORD):
     try:
         sta_if = nt.WLAN(nt.STA_IF)
         sta_if.active(True)
-        led = Pin(2,Pin.OUT)
         if not sta_if.isconnected():
             sta_if.active(True)
             print("Network name: ", SSID)
@@ -36,7 +35,6 @@ def conect_to(SSID, PASSWORD):
             while nt.isconnected() == False:
                 pass
         print("Connected")
-        led.value(0)
     except OSError as e:
         restart_and_reconnect()
         
