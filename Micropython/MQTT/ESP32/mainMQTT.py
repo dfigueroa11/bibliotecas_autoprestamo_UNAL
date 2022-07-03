@@ -50,7 +50,12 @@ class Communications:
             'ID': userID
             }
             self.client.publish(topic, json.dumps(data),True,1)
-        elif topic=='Easymeals/give_back':
+        elif topic=='bibliotecas/give_back':
+            data={
+            'LocalID':self.localID,
+            'libro': libro
+            }
+        elif topic=='bibliotecas/validate_book':
             data={
             'LocalID':self.localID,
             'libro': libro
