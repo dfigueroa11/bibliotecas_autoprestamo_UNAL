@@ -11,8 +11,8 @@ for x in range(len(usersID)):
 usersData={
     "LocalID":"1",
     "Registered": True,
-    "Name":"Laura",
-    "Rol":"Student"
+    "Name":"Maria",
+    "Rol":"Estudiante"
     }
 
 def extract_dict_data(dictionary, key='LocalID'): # Key is a string
@@ -47,31 +47,33 @@ def on_message(client, userdata, msg):
             data={"LocalID":"1"}
             client.publish(msg.topic, json.dumps(data),True,1)
             print('Sent: ', data, '. Topic: ', msg.topic, '\n')
-        elif msg.topic=='Easymeals/Payment':
+        
+        elif msg.topic=='Bibliotecas/Validate_user':
             try:
-                userID=extract_dict_data(message,'ID')[1]
-                if userID in usersID:
-                    print('User found')
-                    usersData["Registered"] = True
-                else:
-                    usersData["Registered"] = False
-                client.publish(msg.topic, json.dumps(usersData),True,1)
-                print('Sent: ', usersData, '. Topic: ', msg.topic, '\n')
-
-            except IndexError as e:
-                print('Error: message contains no user ID')
-                print('I give up')
-                pass
-        elif msg.topic=='Easymeals/Update':
-            try:
-                ticket=message["ticket"]
-                data={"LocalID":"1",
-                      "ticket":ticket,
-                      "Comedor": 1
+                user=message["user"]
+                data={"IDcarne" : "0x99dc293c",
+                    "cedula": "123456789",
+                    "IDlibro_prestado": "1234567890",
+                    "user_type": "Estudiante",
+                    "clave": "asdf123"
                       }
                 client.publish(msg.topic, json.dumps(data),True,1)
             except KeyError as e:
-                print('Error: message contains no ticket')
+                print('Error: message contains no user')
+                print('I give up')
+                pass
+            print('Sent: ', usersData, '. Topic: ', msg.topic, '\n')
+
+        elif msg.topic=='Bibliotecas/Validate_book':
+            try:
+                book=message["book"]
+                data={"IDlibro": "0x99dc293c",
+                    "name": "Hola",
+                    "current_use" : "False"
+                      }
+                client.publish(msg.topic, json.dumps(data),True,1)
+            except KeyError as e:
+                print('Error: message contains no book')
                 print('I give up')
                 pass
             print('Sent: ', usersData, '. Topic: ', msg.topic, '\n')
@@ -79,15 +81,6 @@ def on_message(client, userdata, msg):
     else:
         print('I dont really care \n')
         
-        '''
-        if message in usersID:
-            print('User found')
-            #client.publish(b'SI/Petition', json.dumps(usersData),qos= 1)
-            client.publish('SI/Petition', json.dumps(usersData),True,0)
-        '''
-          #  (rc, mid)= 
-        #else:
-         #   client.publish('SI/Petition', json.dumps('Not found'),True,0)
 
 client = paho.Client()
 client.on_connect = on_connect
@@ -99,7 +92,7 @@ client.on_message = on_message
 
 # subscribe 
 client.subscribe("SI/Petition", qos=1)
-client.subscribe("Easymeals/#", qos=1)
+client.subscribe("Bibliotecas/#", qos=1)
 
 client.loop_start()
 

@@ -1,20 +1,20 @@
 from MQTTconnection import *
 
-class Communications:       
+class Communications:
+        
     
     def __init__(self):
+
         # WLAN network
-        #net_name = "LA.CONSENTIDA"
-        #net_password = "13g8o5l3d21"
-        net_name = "Omega-9523"
-        net_password = "12345678"
-        #net_name = "UNAL"
-        #net_password = ""
+        net_name = "UNAL"
+        net_password = ""
+
         conect_to(net_name,net_password)
+
         try:
             self.client = connect_and_subscribe()
             self.localID='2'
-            self.libro=0 # Current libro
+            self.ticket=0 # Current ticket
             self.last_topic='SI/Petition'
             self.last_message={"LocalID":"2"}
             self.pending_incoming_message=False
@@ -35,39 +35,40 @@ class Communications:
         self.last_pending=self.pending_incoming_message
         return topic, message, self.pending_incoming_message
 
-    def send(self, topic, userID='', libro=0, ):
+    def send(self, topic, ID_user ='', ID_book ='', current_use=''):
         data={'LocalID':self.localID,
             'group': 2
             }
-        if topic=='bibliotecas/validate':
+        if topic=='Bibliotecas/Validate_user':
             data={
             'LocalID':self.localID,
-            'ID': userID
-            }
-        elif topic=='bibliotecas/borrow':
-            data={
-            'LocalID':self.localID,
-            'ID': userID
+            'id': ID_user
             }
             self.client.publish(topic, json.dumps(data),True,1)
-        elif topic=='bibliotecas/give_back':
+        if topic=='Bibliotecas/Validate_book':
             data={
             'LocalID':self.localID,
-            'libro': libro
+            'id': ID_book
             }
-        elif topic=='bibliotecas/validate_book':
+            self.client.publish(topic, json.dumps(data),True,1)
+        elif topic=='Bibliotecas/Give_back':
             data={
             'LocalID':self.localID,
-            'libro': libro
+            'id': ID_book
+            'current_use':current_use
             }
-            if libro!=0:
-                self.libro=libro
+            self.client.publish(topic, json.dumps(data),True,1)
+        elif topic=='Bibliotecas/Borrow':
+            data={
+            'LocalID':self.localID,
+            'id_user': ID_user
+            'id_book': ID_book
+
+            }
             self.client.publish(topic, json.dumps(data),True,1)
         elif topic=='SI/Petition':
             print('Loop SI availability secured', '\n')
             self.client.publish('SI/Petition', json.dumps(data),True,1)
-        elif topic=='TEMPERATURE':
-            self.client.publish('TEMPERATURE', 'Holi',True,1)
         else:
             print('Misstyped topic')
         
@@ -79,7 +80,7 @@ class Communications:
         received = True
     
         myMsg={
-            'LocalID':'8',
+            'LocalID':'2',
             'ID': '101006'
             }
     

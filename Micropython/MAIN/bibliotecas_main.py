@@ -2,9 +2,6 @@ import perifericos
 import json
 import machine
 
-from ili9341 import Display, color565
-from machine import Pin, SPI
-from xglcd_font import XglcdFont
 from machine import SoftSPI
 import math
 #importar para pantalla
@@ -29,6 +26,9 @@ mensajeUsuario=''
 aux=''
 asteriscos=''
 tecladoDisponible=True
+
+#iniciar magnetizador
+magnetizer = Desmagnetizer(pin1,pin2,pin3) #Configurar pines
 
 def read_json(file_name):
     with open(file_name) as IDjson:
@@ -56,9 +56,10 @@ while True:
         if(data_prueba_libro['IDlibro'] != "0"): 
 
             if ((data_prueba_libro['current_use'] == "True")):# En prestamo: TRUE, NO en prestamo:FALSE
-                #Magnetizar el libro
+                magnetizer.magnetize()
                 sleep(5)
-                #data_prueba_libro['current_use']="False"
+                data_prueba_libro['current_use']="False"
+                write_json('prueba_libro.json',data_prueba_libro)
                 #Enviar diccionario al SI- COMM.send(topic='bibliotecas/Validate_libro', )
                 disp.printImg('bibliotecash4.raw')
           
@@ -109,7 +110,7 @@ while True:
                                 asteriscos=''
                                 clave_incorrecta = False
                                 disp.printImg('bibliotecash6.raw')
-                                #Desmagnetizar el libro
+                                magnetizer.demagnetize()
                                 sleep(6)
                                 disp.printImg('bibliotecash3.raw')
                                 sleep(3)
@@ -124,13 +125,13 @@ while True:
                                 asteriscos=''
                                 print('Clave incorrecta')
                     else:
-                        print('No es estudiante') #Fino                    
+                        print('No es estudiante')                    
                 else:
                     print('No ha sido leido el carne')
             else:
                 print('El estado del libro no es claro')
         else:
-            print('No se ha asignado el ID del libro al json del libro') #Fino
+            print('No se ha asignado el ID del libro al json del libro') 
    
     else:
         print('No ha sido leido el libro')

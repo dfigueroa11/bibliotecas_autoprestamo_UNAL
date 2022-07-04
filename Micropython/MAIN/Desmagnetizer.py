@@ -4,7 +4,7 @@ import time
 
 
 
-class desmagnetizador:
+class Desmagnetizer:
 
     def __init__(self,fan_pin,pwm1_pin,pwm2_pin):
         self.duty = 0.5

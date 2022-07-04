@@ -7,8 +7,10 @@ import json
 
 
 client_id = "ESP32"
+#mqtt_server = "778209500d2e429395808690733dbd2a.s1.eu.hivemq.cloud"
+#mqtt_server = "broker.hivemq.com"
 mqtt_server = "192.168.3.1"
-user_mqtt = "Biblioteca"
+user_mqtt = "MariaS"
 password_mqtt = "13g8o5l3d21"
 
 global new_topic
@@ -16,6 +18,8 @@ global new_message
 
 new_topic='SI/Petition'
 new_message=0
+
+#topic_sub = b'notification'
 
 def restart_and_reconnect():
     print('Failed to connect. Reconnecting...')
@@ -26,6 +30,7 @@ def conect_to(SSID, PASSWORD):
     try:
         sta_if = nt.WLAN(nt.STA_IF)
         sta_if.active(True)
+        led = Pin(2,Pin.OUT)
         if not sta_if.isconnected():
             sta_if.active(True)
             print("Network name: ", SSID)
@@ -35,10 +40,11 @@ def conect_to(SSID, PASSWORD):
             while nt.isconnected() == False:
                 pass
         print("Connected")
+        led.value(0)
     except OSError as e:
         restart_and_reconnect()
         
-def extract_dict_data(dictionary, key='LocalID'):
+def extract_dict_data(dictionary, key='LocalID'): # Key is a string
     result=[]
     try:
         for x in range(len(list(dictionary.items()))):
@@ -82,6 +88,6 @@ def connect_and_subscribe():
     client.set_callback(sub_cb)
     client.subscribe(b'SI/Petition',1)
     print('Test text')
-    client.subscribe(b'bibliotecas/#',1)
+    client.subscribe(b'Bibliotecas/#',1)
     print('Connected to %s MQTT broker' % (mqtt_server))
     return client
