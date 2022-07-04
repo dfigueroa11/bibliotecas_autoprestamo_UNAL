@@ -35,7 +35,7 @@ class Communications:
         self.last_pending=self.pending_incoming_message
         return topic, message, self.pending_incoming_message
 
-    def send(self, topic, ID_user ='', ID_book ='', current_use=''):
+    def send(self, topic, ID_user ='', ID_book ='', book_json_updated):
         data={'LocalID':self.localID,
             'group': 2
             }
@@ -52,19 +52,10 @@ class Communications:
             }
             self.client.publish(topic, json.dumps(data),True,1)
         elif topic=='Bibliotecas/Give_back':
-            data={
-            'LocalID':self.localID,
-            'id': ID_book
-            'current_use':current_use
-            }
+            data=book_json_updated
             self.client.publish(topic, json.dumps(data),True,1)
         elif topic=='Bibliotecas/Borrow':
-            data={
-            'LocalID':self.localID,
-            'id_user': ID_user
-            'id_book': ID_book
-
-            }
+            data=book_json_updated
             self.client.publish(topic, json.dumps(data),True,1)
         elif topic=='SI/Petition':
             print('Loop SI availability secured', '\n')

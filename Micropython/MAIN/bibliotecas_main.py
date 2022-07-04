@@ -10,6 +10,7 @@ from ili9341 import Display, color565
 from machine import Pin, SPI
 from xglcd_font import XglcdFont
 from displayLib import MyDisplay
+from Desmagnetizador import Desmagnetizador 
 
 import teclado 
 
@@ -28,7 +29,7 @@ asteriscos=''
 tecladoDisponible=True
 
 #iniciar magnetizador
-magnetizer = Desmagnetizer(pin1,pin2,pin3) #Configurar pines
+magnetizer = Desmagnetizador(16,21,17) #Configurar pines
 
 def read_json(file_name):
     with open(file_name) as IDjson:
