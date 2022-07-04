@@ -1,6 +1,1 @@
-{
-"IDlibro": "0x99dc293c",
-"name": "Hola",
-"current_use" : "False",
-"library" : "CyT"
-}
+{"current_use": "True", "library": "CyT", "IDlibro": "0x99dc293c", "name": "Hola"}

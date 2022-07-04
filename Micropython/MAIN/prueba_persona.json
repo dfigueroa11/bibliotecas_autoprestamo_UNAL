@@ -3,6 +3,6 @@
 "cedula": "123456789",
 "IDlibro_prestado": "1234567890",
 "restricciones" : "False",
-"user_type": "Estudiante"
-"clave": "asdf123"
+"user_type": "Estudiante",
+"clave": "asd123"
 }
