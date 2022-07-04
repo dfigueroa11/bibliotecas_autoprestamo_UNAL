@@ -1,8 +1,7 @@
 import perifericos
 import json
 import machine
-<<<<<<< HEAD
-=======
+
 from ili9341 import Display, color565
 from machine import Pin, SPI
 from xglcd_font import XglcdFont
@@ -27,6 +26,8 @@ disp=MyDisplay(perifericos.get_spi())
 palabra=''
 auxiliar=''
 mensajeUsuario=''
+aux=''
+asteriscos=''
 tecladoDisponible=True
 
 def read_json(file_name):
@@ -45,7 +46,6 @@ while True:
     card_id_libro= perifericos.lectura(2)
     if(card_id_libro != None):
         print (card_id_libro)
-        sleep(5)
         data_libro = read_json('IDlibro.json')
         data_libro['id'] = card_id_libro  #ESTO SE ENVIARIA AL SI
             # COMM.send(topic='bibliotecas/Validate_libro', card_id_libro=card_id_libro)
@@ -84,23 +84,36 @@ while True:
                         clave_incorrecta = True
                         while  clave_incorrecta:
                             tecladoDisponible=True
-                            while tecladoDisponible:
-                                disp.printImg('bibliotecash1.raw')
+                            disp.printImg('bibliotecash1.raw')
+                            while tecladoDisponible:                                
                                 auxiliar=teclado.readLetter()
-                                if auxiliar!='enter':
+                                if auxiliar==-1:
+                                    pass
+                                elif auxiliar!='enter'and auxiliar!='delete':
                                     palabra=palabra+auxiliar
-                                if auxiliar!='enter':
+                                    asteriscos=asteriscos+'* '
                                     print(palabra)
-                                    disp.printText(palabra)
+                                elif auxiliar=='delete':
+                                    print('borra palabra')
+                                    aux = palabra[:-1]
+                                    asteriscos=asteriscos[:-2]
+                                    palabra=aux
+                                    disp.printShortText('             ')
+                                    print(palabra)
                                 elif  auxiliar=='enter':
-                                    tecladoDisponible=False     
+                                    tecladoDisponible=False
+                                disp.printShortText(asteriscos)
                             if(palabra == data_prueba_persona['clave']):
                                 print('clave correcta')
+                                palabra=''
+                                asteriscos=''
                                 clave_incorrecta = False
                                 disp.printImg('bibliotecash6.raw')
                                 #Desmagnetizar el libro
                                 sleep(6)
                                 disp.printImg('bibliotecash3.raw')
+                                sleep(3)
+                                disp.printImg('bibliotecash2.raw')
                                 data_prueba_libro['current_use']="True"
                                 write_json('prueba_libro.json',data_prueba_libro)
                                 print(data_prueba_libro)
@@ -108,12 +121,10 @@ while True:
                             elif (palabra != data_prueba_persona['clave']):
                                 disp.printImg('bibliotecash5.raw')
                                 palabra=''
+                                asteriscos=''
                                 print('Clave incorrecta')
-
-                         
                     else:
-                        print('No es estudiante') #Fino
-                    
+                        print('No es estudiante') #Fino                    
                 else:
                     print('No ha sido leido el carne')
             else:
@@ -127,4 +138,6 @@ while True:
         
 
  
+
+
 
