@@ -30,7 +30,7 @@ class MyDisplay:
         self.font = XglcdFont('EspressoDolce18x24.c', 18, 24)
     def printShortText(self, text):
         print('Debe imprimir texto corto')
-        self.display.draw_text(100, 100, text, self.font, color565(255, 255, 255), color565(204, 53, 94))# x, y, texto, fuente, color de letra, color de fondo de letra
+        self.display.draw_text(100, 150, text, self.font, color565(0, 0, 0), color565(255, 255, 255))# x, y, texto, fuente, color de letra, color de fondo de letra
     def printText(self, text, vspace=0, hspace=0):
         print('Debe imprimir texto')
         
@@ -76,6 +76,6 @@ class MyDisplay:
        
     def printImg(self,nombre):
         print('Imprime Imagen')
-        self.display.draw_image(nombre, 0, 0, 240, 320)
+        self.display.draw_image(nombre, 0, 0, 320, 240)
         
         
