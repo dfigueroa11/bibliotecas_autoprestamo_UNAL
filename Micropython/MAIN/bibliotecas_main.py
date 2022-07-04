@@ -21,7 +21,7 @@ import teclado
 
 #iniciar pantalla
 disp=MyDisplay(perifericos.get_spi())
-disp.printImg('bibliotecash2.raw')
+
 
 #variables iniciales teclado
 palabra=''
@@ -31,17 +31,23 @@ tecladoDisponible=True
 
 def read_json(file_name):
     with open(file_name) as IDjson:
-    data = json.load(IDjson)
+        data = json.load(IDjson)
     return data
 
+def write_json(file_name,data):
+    with open(file_name, 'w') as IDjson:
+        json.dump(data, IDjson)
+
+
 while True:
-    
+
+    disp.printImg('bibliotecash2.raw')
     card_id_libro= perifericos.lectura(2)
     if(card_id_libro != None):
         print (card_id_libro)
         sleep(5)
         data_libro = read_json('IDlibro.json')
-            data_libro['id'] = card_id_libro  #ESTO SE ENVIARIA AL SI
+        data_libro['id'] = card_id_libro  #ESTO SE ENVIARIA AL SI
             # COMM.send(topic='bibliotecas/Validate_libro', card_id_libro=card_id_libro)
                
         with open('prueba_libro.json') as prueba_libro:
@@ -60,6 +66,7 @@ while True:
                 
             elif ((data_prueba_libro['current_use']=="False")):# En prestamo: TRUE, NO en prestamo:FALSE
                 disp.printImg('bibliotecash.raw')
+
                 card_id_persona= perifericos.lectura(1)
                 if(card_id_persona != None):
                     print(card_id_persona)
@@ -94,7 +101,9 @@ while True:
                                 #Desmagnetizar el libro
                                 sleep(6)
                                 disp.printImg('bibliotecash3.raw')
-                                #data_prueba_libro['current_use']="True"
+                                data_prueba_libro['current_use']="True"
+                                write_json('prueba_libro.json',data_prueba_libro)
+                                print(data_prueba_libro)
                                 #Enviar diccionario actualizado a la SI, Id libro y id user para vincular
                             elif (palabra != data_prueba_persona['clave']):
                                 disp.printImg('bibliotecash5.raw')
