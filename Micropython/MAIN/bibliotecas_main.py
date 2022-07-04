@@ -21,7 +21,7 @@ import teclado
 
 #iniciar pantalla
 disp=MyDisplay(perifericos.get_spi())
-disp.printImg('images\bibliotecash2.raw')
+disp.printImg('image\bibliotecash2.raw')
 
 #variables iniciales teclado
 palabra=''
@@ -29,14 +29,18 @@ auxiliar=''
 mensajeUsuario=''
 tecladoDisponible=True
 
+def read_json(file_name):
+    with open(file_name) as IDjson:
+    data = json.load(IDjson)
+    return data
+
 while True:
     
     card_id_libro= perifericos.lectura(2)
     if(card_id_libro != None):
         print (card_id_libro)
         sleep(5)
-        with open('IDlibro.json') as IDlibro:
-            data_libro = json.load(IDlibro)
+        data_libro = read_json('IDlibro.json')
             data_libro['id'] = card_id_libro  #ESTO SE ENVIARIA AL SI
             # COMM.send(topic='bibliotecas/Validate_libro', card_id_libro=card_id_libro)
                
@@ -50,12 +54,12 @@ while True:
                 sleep(5)
                 #data_prueba_libro['current_use']="False"
                 #Enviar diccionario al SI- COMM.send(topic='bibliotecas/Validate_libro', )
-                disp.printImg('images\bibliotecash4.raw')
+                disp.printImg('image\bibliotecash4.raw')
           
                 print(data_prueba_libro['current_use'])
                 
             elif ((data_prueba_libro['current_use']=="False")):# En prestamo: TRUE, NO en prestamo:FALSE
-                disp.printImg('images\bibliotecash.raw')
+                disp.printImg('image\bibliotecash.raw')
                 card_id_persona= perifericos.lectura(1)
                 if(card_id_persona != None):
                     print(card_id_persona)
@@ -70,11 +74,11 @@ while True:
                     
                     if(data_prueba_persona['user_type'] == "Estudiante"):
                         print('Funciono')
-
-                        while palabra!='':
+                        clave_incorrecta = True
+                        while  clave_incorrecta:
                             tecladoDisponible=True
-                            while tecladoDisponible==True:
-                                disp.printImg('images\bibliotecash1.raw')
+                            while tecladoDisponible:
+                                disp.printImg('image\bibliotecash1.raw')
                                 auxiliar=teclado.readLetter()
                                 if auxiliar!='enter':
                                     palabra=palabra+auxiliar
@@ -82,21 +86,20 @@ while True:
                                     print(palabra)
                                     disp.printText(palabra)
                                 elif  auxiliar=='enter':
-                                    tecladoDisponible=False  
-                             pass
-                             if(palabra == data_prueba_persona['clave']):
+                                    tecladoDisponible=False     
+                            if(palabra == data_prueba_persona['clave']):
                                 print('clave correcta')
-                                disp.printImg('images\bibliotecash6.raw')
+                                clave_incorrecta = False
+                                disp.printImg('image\bibliotecash6.raw')
                                 #Desmagnetizar el libro
                                 sleep(6)
-                                disp.printImg('images\bibliotecash3.raw')
+                                disp.printImg('image\bibliotecash3.raw')
                                 #data_prueba_libro['current_use']="True"
                                 #Enviar diccionario actualizado a la SI, Id libro y id user para vincular
-                             elif (palabra != data_prueba_persona['clave'])
-                                disp.printImg('images\bibliotecash5.raw')
+                            elif (palabra != data_prueba_persona['clave']):
+                                disp.printImg('image\bibliotecash5.raw')
                                 palabra=''
                                 print('Clave incorrecta')
-                        pass
 
                          
                     else:
