@@ -21,7 +21,7 @@ import teclado
 
 #iniciar pantalla
 disp=MyDisplay(perifericos.get_spi())
-disp.printImg('image\bibliotecash2.raw')
+disp.printImg('bibliotecash2.raw')
 
 #variables iniciales teclado
 palabra=''
@@ -54,12 +54,12 @@ while True:
                 sleep(5)
                 #data_prueba_libro['current_use']="False"
                 #Enviar diccionario al SI- COMM.send(topic='bibliotecas/Validate_libro', )
-                disp.printImg('image\bibliotecash4.raw')
+                disp.printImg('bibliotecash4.raw')
           
                 print(data_prueba_libro['current_use'])
                 
             elif ((data_prueba_libro['current_use']=="False")):# En prestamo: TRUE, NO en prestamo:FALSE
-                disp.printImg('image\bibliotecash.raw')
+                disp.printImg('bibliotecash.raw')
                 card_id_persona= perifericos.lectura(1)
                 if(card_id_persona != None):
                     print(card_id_persona)
@@ -78,7 +78,7 @@ while True:
                         while  clave_incorrecta:
                             tecladoDisponible=True
                             while tecladoDisponible:
-                                disp.printImg('image\bibliotecash1.raw')
+                                disp.printImg('bibliotecash1.raw')
                                 auxiliar=teclado.readLetter()
                                 if auxiliar!='enter':
                                     palabra=palabra+auxiliar
@@ -90,14 +90,14 @@ while True:
                             if(palabra == data_prueba_persona['clave']):
                                 print('clave correcta')
                                 clave_incorrecta = False
-                                disp.printImg('image\bibliotecash6.raw')
+                                disp.printImg('bibliotecash6.raw')
                                 #Desmagnetizar el libro
                                 sleep(6)
-                                disp.printImg('image\bibliotecash3.raw')
+                                disp.printImg('bibliotecash3.raw')
                                 #data_prueba_libro['current_use']="True"
                                 #Enviar diccionario actualizado a la SI, Id libro y id user para vincular
                             elif (palabra != data_prueba_persona['clave']):
-                                disp.printImg('image\bibliotecash5.raw')
+                                disp.printImg('bibliotecash5.raw')
                                 palabra=''
                                 print('Clave incorrecta')
 
